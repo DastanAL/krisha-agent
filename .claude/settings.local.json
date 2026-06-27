@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Process -Name \"node\" -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Force -Confirm:$false)",
+      "PowerShell(pm2 status)",
+      "PowerShell(Get-ScheduledTask -TaskName \"KrishaAgent-AutoStart\")"
+    ]
+  }
+}
