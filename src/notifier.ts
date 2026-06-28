@@ -98,6 +98,30 @@ export async function notifyPriceChange(l: Listing, oldPrice: number, code: stri
   await sendText(me(), msg);
 }
 
+// Убирает мусорные параметры из URL krisha.kz, оставляет только чистую ссылку
+function cleanUrl(url: string): string {
+  try {
+    const u = new URL(url);
+    return `${u.origin}${u.pathname}`;
+  } catch {
+    return url;
+  }
+}
+
+// Цену в миллионах: 27500000 → "27.5 млн ₸"
+function fmtPrice(price: number): string {
+  if (!price) return "цена не указана";
+  const m = price / 1_000_000;
+  return `${Number.isInteger(m) ? m : m.toFixed(1)} млн ₸`;
+}
+
+// Адрес — только первая значимая часть, до 45 символов
+function shortAddr(address: string | null): string {
+  if (!address) return "";
+  const clean = address.split("—")[0].trim();
+  return clean.length > 45 ? clean.slice(0, 42) + "…" : clean;
+}
+
 /** Ежедневная сводка всех найденных за день квартир. */
 export async function sendDailyDigest(
   listings: (Listing & { code: string; status: ListingStatus })[]
@@ -111,47 +135,43 @@ export async function sendDailyDigest(
 
   const sorted = [...listings].sort((a, b) => scoreListing(b) - scoreListing(a));
 
-  const statusEmoji: Record<ListingStatus, string> = {
-    new:        "",
-    notified:   "",
-    skipped:    "⏭ пропущено",
-    contacting: "💬 переписка",
-    confirmed:  "✅ встреча",
-    declined:   "❌ отказ",
+  const statusMark: Record<ListingStatus, string> = {
+    new: "", notified: "", skipped: " ⏭", contacting: " 💬", confirmed: " ✅", declined: " ❌",
   };
 
-  const lines: string[] = [
-    `📊 Итог дня — ${today}`,
-    `Найдено квартир: ${listings.length}`,
-    "",
-  ];
-
+  // Строим список объявлений — 3 строки на каждое
+  const items: string[] = [];
   sorted.forEach((l, i) => {
     const score = scoreListing(l);
-    const status = statusEmoji[l.status] ? `  ${statusEmoji[l.status]}` : "";
-    lines.push(`${i + 1}. ${scoreLabel(score)}${status}`);
-    lines.push(`   💰 ${l.price ? l.price.toLocaleString("ru-RU") + " ₸" : "цена не указана"}${l.rooms ? ` · ${l.rooms}-комн` : ""}${l.areaM2 ? ` · ${l.areaM2} м²` : ""}`);
-    if (l.address) lines.push(`   📍 ${l.address}`);
-    lines.push(`   Код: ${l.code}  🔗 ${l.url}`);
-    lines.push("");
+    const mark = statusMark[l.status] || "";
+    const rooms = l.rooms ? `${l.rooms}к` : "";
+    const area  = l.areaM2 ? `${l.areaM2}м²` : "";
+    const spec  = [rooms, area].filter(Boolean).join(" · ");
+
+    items.push(`${i + 1}. ${scoreLabel(score)}${mark}${spec ? `  ${spec}` : ""}`);
+    items.push(`   💰 ${fmtPrice(l.price)}${l.address ? `  📍 ${shortAddr(l.address)}` : ""}`);
+    items.push(`   ${cleanUrl(l.url)}  [${l.code}]`);
+    items.push("");
   });
 
-  // Разбиваем на части по 10 объявлений — Green API не принимает сообщения длиннее 20 000 символов
-  const CHUNK = 10;
-  const chunks: string[][] = [];
-  const header = lines.slice(0, 3); // заголовок: "📊 Итог дня", пустая строка, пустая строка
-  const items: string[] = lines.slice(3); // сами объявления
-
-  for (let i = 0; i < items.length; i += CHUNK * 5) {
-    chunks.push([...header, ...items.slice(i, i + CHUNK * 5)]);
+  // Разбиваем на части по ~4000 символов (лимит Green API — 20 000)
+  const header = `📊 Итог дня — ${today} · ${listings.length} квартир\n\n`;
+  const parts: string[] = [];
+  let current = header;
+  for (const line of items) {
+    if ((current + line + "\n").length > 4000) {
+      parts.push(current.trimEnd());
+      current = header;
+    }
+    current += line + "\n";
   }
-  if (chunks.length === 0) chunks.push(lines);
+  if (current.trim() !== header.trim()) parts.push(current.trimEnd());
 
   const recipients = [me(), ...config.digestWhatsApp];
   for (const recipient of recipients) {
-    for (let i = 0; i < chunks.length; i++) {
-      const part = chunks.length > 1 ? [`📄 Часть ${i + 1} из ${chunks.length}`, "", ...chunks[i]] : chunks[i];
-      await sendText(recipient, part.join("\n")).catch((e) =>
+    for (let i = 0; i < parts.length; i++) {
+      const prefix = parts.length > 1 ? `📄 ${i + 1}/${parts.length}\n` : "";
+      await sendText(recipient, prefix + parts[i]).catch((e) =>
         console.error(`[digest] не удалось отправить на ${recipient}:`, (e as Error).message)
       );
     }
