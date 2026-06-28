@@ -3,14 +3,12 @@ module.exports = {
     {
       name: "krisha-agent",
       script: "runner.cjs",
-      cwd: "C:\\Users\\7em\\Desktop\\krisha-agent",
+      cwd: __dirname,
 
-      // Автоперезапуск при падении
       restart_delay: 5000,
       max_restarts: 20,
       exp_backoff_restart_delay: 100,
 
-      // Логи
       log_date_format: "DD.MM.YYYY HH:mm:ss",
       out_file: "logs/agent.log",
       error_file: "logs/agent-error.log",
