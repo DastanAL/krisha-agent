@@ -2,6 +2,7 @@ import { config } from "./config.js";
 import { Listing, Proposal, ListingStatus } from "./types.js";
 import { sendText, sendImage } from "./whatsapp.js";
 import { scoreListing, scoreLabel } from "./scorer.js";
+import type { MonthlyStats } from "./db.js";
 
 const me = () => config.myWhatsApp;
 
@@ -180,4 +181,63 @@ export async function sendDailyDigest(
 
 export async function notifyUser(text: string): Promise<void> {
   await sendText(me(), text);
+}
+
+/** Ежемесячный отчёт — отправляется 1-го числа каждого месяца в 10:00. */
+export async function sendMonthlyReport(stats: MonthlyStats): Promise<void> {
+  const lines: string[] = [];
+
+  lines.push(`📈 Статистика за ${stats.monthLabel}`);
+  lines.push("");
+  lines.push(`📋 Найдено квартир: ${stats.found}`);
+  if (stats.found > 0) {
+    const active = stats.found - stats.skipped - stats.contacting - stats.confirmed;
+    lines.push(`   • Без ответа: ${active}`);
+    if (stats.skipped)   lines.push(`   • Пропущено: ${stats.skipped}`);
+    if (stats.contacting) lines.push(`   • Переговоры: ${stats.contacting}`);
+    if (stats.confirmed)  lines.push(`   • Встречи: ${stats.confirmed}`);
+  }
+
+  if (stats.priceChanges.length === 0) {
+    lines.push("");
+    lines.push("💰 Изменений цен не было");
+  } else {
+    const down = stats.priceChanges.filter((c) => c.nowPrice < c.wasPrice);
+    const up   = stats.priceChanges.filter((c) => c.nowPrice > c.wasPrice);
+
+    lines.push("");
+    lines.push(`💰 Изменения цен (${stats.priceChanges.length}):`);
+
+    if (down.length > 0) {
+      lines.push("");
+      lines.push(`🟢 Снизились (${down.length}):`);
+      for (const c of down) {
+        const was = fmtPrice(c.wasPrice);
+        const now = fmtPrice(c.nowPrice);
+        const diff = fmtPrice(c.wasPrice - c.nowPrice);
+        const district = c.district ? ` · ${c.district.replace(" район", "").replace("ский", "ск")}` : "";
+        lines.push(`• [${c.code}]${district}: ${was} → ${now} (−${diff})`);
+      }
+    }
+
+    if (up.length > 0) {
+      lines.push("");
+      lines.push(`🔴 Выросли (${up.length}):`);
+      for (const c of up) {
+        const was = fmtPrice(c.wasPrice);
+        const now = fmtPrice(c.nowPrice);
+        const diff = fmtPrice(c.nowPrice - c.wasPrice);
+        const district = c.district ? ` · ${c.district.replace(" район", "").replace("ский", "ск")}` : "";
+        lines.push(`• [${c.code}]${district}: ${was} → ${now} (+${diff})`);
+      }
+    }
+  }
+
+  const msg = lines.join("\n");
+  const recipients = [me(), ...config.digestWhatsApp];
+  for (const recipient of recipients) {
+    await sendText(recipient, msg).catch((e) =>
+      console.error(`[monthly] не удалось отправить на ${recipient}:`, (e as Error).message)
+    );
+  }
 }

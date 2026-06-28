@@ -2,8 +2,8 @@ import cron from "node-cron";
 import { config } from "./config.js";
 import { searchListings } from "./scraper.js";
 import { filterNew } from "./matcher.js";
-import { saveListing, getListing, checkPriceChange, getListingsFoundToday } from "./db.js";
-import { notifyNewListing, notifyPriceChange, sendDailyDigest } from "./notifier.js";
+import { saveListing, getListing, checkPriceChange, getListingsFoundToday, getMonthlyStats } from "./db.js";
+import { notifyNewListing, notifyPriceChange, sendDailyDigest, sendMonthlyReport } from "./notifier.js";
 import { scoreListing } from "./scorer.js";
 
 /** Один цикл: поиск → изменения цен → новые объявления → уведомления тебе. */
@@ -51,6 +51,16 @@ export function startScheduler(): void {
     sendDailyDigest(listings).catch((e) => console.error("[digest] ошибка:", e));
   });
 
+  // Ежемесячный отчёт — 1-го числа каждого месяца в 10:00 (статистика за прошлый месяц)
+  cron.schedule("0 10 1 * *", () => {
+    const now = new Date();
+    const prevMonth = now.getMonth() === 0 ? 12 : now.getMonth();
+    const prevYear  = now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear();
+    const stats = getMonthlyStats(prevYear, prevMonth);
+    sendMonthlyReport(stats).catch((e) => console.error("[monthly] ошибка:", e));
+  });
+
   console.log(`[scheduler] мониторинг запущен по расписанию: ${config.checkIntervalCron}`);
   console.log("[scheduler] ежедневная сводка — каждый день в 18:00");
+  console.log("[scheduler] ежемесячный отчёт — 1-го числа каждого месяца в 10:00");
 }

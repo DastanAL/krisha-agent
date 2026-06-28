@@ -4,6 +4,12 @@ import { Listing, ListingStatus, Negotiation, NegotiationPhase } from "./types.j
 
 const DATA_FILE = "krisha-agent-data.json";
 
+interface PriceChange {
+  oldPrice: number;
+  newPrice: number;
+  changedAt: string;
+}
+
 interface ListingRecord {
   id: string;
   code: string;
@@ -18,6 +24,23 @@ interface ListingRecord {
   postedAt: string | null;
   firstSeenAt: string;
   status: ListingStatus;
+  priceHistory?: PriceChange[];
+}
+
+export interface PriceChangeEntry {
+  code: string;
+  district: string | null;
+  wasPrice: number;
+  nowPrice: number;
+}
+
+export interface MonthlyStats {
+  monthLabel: string;
+  found: number;
+  skipped: number;
+  contacting: number;
+  confirmed: number;
+  priceChanges: PriceChangeEntry[];
 }
 
 interface State {
@@ -69,6 +92,7 @@ export function saveListing(l: Listing, status: ListingStatus): string {
     postedAt: l.postedAt,
     firstSeenAt: existing ? existing.firstSeenAt : new Date().toISOString(),
     status,
+    priceHistory: existing?.priceHistory,
   };
   save();
   return code;
@@ -148,14 +172,57 @@ export function getListingsFoundToday(): (Listing & { code: string; status: List
     .map(toListing);
 }
 
-/** Если цена изменилась — обновляет её в базе и возвращает старую. Иначе null. */
+/** Если цена изменилась — обновляет её в базе, сохраняет историю и возвращает старую. Иначе null. */
 export function checkPriceChange(id: string, newPrice: number): { oldPrice: number } | null {
   const rec = state.listings[id];
   if (!rec || newPrice <= 0 || rec.price === newPrice) return null;
   const oldPrice = rec.price;
+  if (!rec.priceHistory) rec.priceHistory = [];
+  rec.priceHistory.push({ oldPrice, newPrice, changedAt: new Date().toISOString() });
   rec.price = newPrice;
   save();
   return { oldPrice };
+}
+
+const MONTH_NAMES = [
+  "январь","февраль","март","апрель","май","июнь",
+  "июль","август","сентябрь","октябрь","ноябрь","декабрь",
+];
+
+/** Статистика за конкретный месяц (month: 1-12). */
+export function getMonthlyStats(year: number, month: number): MonthlyStats {
+  const prefix = `${year}-${String(month).padStart(2, "0")}`;
+  let found = 0, skipped = 0, contacting = 0, confirmed = 0;
+
+  for (const rec of Object.values(state.listings)) {
+    if (!rec.firstSeenAt.startsWith(prefix)) continue;
+    found++;
+    if (rec.status === "skipped") skipped++;
+    else if (rec.status === "contacting") contacting++;
+    else if (rec.status === "confirmed") confirmed++;
+  }
+
+  const priceChanges: PriceChangeEntry[] = [];
+  for (const rec of Object.values(state.listings)) {
+    if (!rec.priceHistory) continue;
+    const monthChanges = rec.priceHistory.filter((c) => c.changedAt.startsWith(prefix));
+    if (monthChanges.length === 0) continue;
+    priceChanges.push({
+      code: rec.code,
+      district: rec.district,
+      wasPrice: monthChanges[0].oldPrice,
+      nowPrice: monthChanges[monthChanges.length - 1].newPrice,
+    });
+  }
+
+  return {
+    monthLabel: `${MONTH_NAMES[month - 1]} ${year}`,
+    found,
+    skipped,
+    contacting,
+    confirmed,
+    priceChanges,
+  };
 }
 
 export function getNegotiationByOwnerPhone(phone: string): Negotiation | null {
