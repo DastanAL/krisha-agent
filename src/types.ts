@@ -1,65 +1,29 @@
 // Общие типы проекта
 
 export type DealType = "arenda" | "prodazha";
+export type Market = "primary" | "secondary";
+export type Source = "krisha" | "korter";
 
 export interface Listing {
-  id: string;
+  id: string; // детерминированный id — см. src/dedup.ts для первички, krisha:<nativeId> для вторички
+  market: Market;
+  source: Source; // источник с минимальной ценой, если объект слит из нескольких
+  sources?: Source[]; // все источники, если объект слит из нескольких
+  urls?: string[]; // объединение ссылок, если объект слит из нескольких
   title: string;
-  price: number; // в тенге
+  url: string; // = urls[0], если объект слит из нескольких
+  price: number; // в тенге, минимальная цена среди источников
+  pricePerM2: number | null; // price / areaM2, если оба известны
   rooms: number | null;
   areaM2: number | null;
-  floor: string | null;
+  floor: string | null; // только вторичка
   district: string | null;
   address: string | null;
-  url: string;
-  phone: string | null;
+  complexName: string | null; // ЖК — только первичка
+  developer: string | null; // застройщик — только первичка
+  handoverDate: string | null; // срок сдачи — только первичка
+  housingClass: string | null; // класс жилья — только первичка
   photos: string[];
   description: string | null;
   postedAt: string | null;
-}
-
-export type ListingStatus =
-  | "new"
-  | "notified"
-  | "skipped"
-  | "contacting"
-  | "confirmed"
-  | "declined";
-
-// Фаза переписки с хозяином (state machine)
-export type NegotiationPhase =
-  | "awaiting_user_approval" // черновик ждёт твоего ок/ред/нет
-  | "awaiting_user_datetime" // агент ждёт от тебя дату/время для предложения хозяину
-  | "awaiting_owner_reply" // сообщение отправлено хозяину, ждём его ответ
-  | "awaiting_user_final" // согласован слот, ждём твоё финальное "да"
-  | "confirmed"
-  | "declined";
-
-export interface Proposal {
-  date: string;
-  time: string;
-  place: string;
-  notes: string;
-}
-
-export interface ChatMessage {
-  role: "assistant" | "user"; // user = хозяин в этом подразговоре
-  content: string;
-  at: string;
-}
-
-export interface Negotiation {
-  listingId: string;
-  ownerPhone: string;
-  phase: NegotiationPhase;
-  pendingDraft: string | null;
-  proposal: Proposal | null;
-  history: ChatMessage[]; // только реально отправленные/полученные сообщения
-  updatedAt: string;
-}
-
-export interface IncomingMessage {
-  from: string; // номер отправителя (только цифры)
-  text: string;
-  at: string;
 }

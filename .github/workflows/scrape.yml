@@ -1,0 +1,51 @@
+name: Scrape
+
+on:
+  schedule:
+    # 04:00 UTC = 09:00 Алматы
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright (Chromium)
+        run: npx playwright install --with-deps chromium
+
+      - name: Type-check
+        run: npm run build
+
+      - name: Run pipeline
+        env:
+          MY_WHATSAPP: ${{ secrets.MY_WHATSAPP }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GREEN_API_ID_INSTANCE: ${{ secrets.GREEN_API_ID_INSTANCE }}
+          GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
+          GREEN_API_URL: ${{ secrets.GREEN_API_URL }}
+          DIGEST_WHATSAPP: ${{ secrets.DIGEST_WHATSAPP }}
+        run: npm start
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/state.json data/digest.json
+          git diff --staged --quiet || git commit -m "chore: update listings data [skip ci]"
+          git push

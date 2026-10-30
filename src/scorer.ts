@@ -1,22 +1,17 @@
 import { Listing } from "./types.js";
+import { config } from "./config.js";
 
-// Районы по приоритету (твои предпочтения): максимум 20 баллов
-const DISTRICT_SCORE: Record<string, number> = {
-  "Бостандыкский": 20,
-  "Алмалинский":   16,
-  "Ауэзовский":    12,
-  "Жетысуский":     8,
-  "Наурызбайский":  4,
-};
-
-const BUDGET = 35_000_000;
+// Скоринг применяется только к вторичке (scorer.ts используется в её рейтинге/сводке).
+// Вес района и бюджет настраиваются в config.secondary — заполни их там.
 
 export function scoreListing(l: Listing): number {
   let score = 0;
+  const districtScore = config.secondary.districtScore;
+  const budget = config.secondary.priceTo || 35_000_000; // запасное значение, если priceTo не задан
 
   // Цена (30 баллов): чем дешевле, тем выше балл
   if (l.price > 0) {
-    score += Math.max(0, Math.round((1 - l.price / BUDGET) * 30));
+    score += Math.max(0, Math.round((1 - l.price / budget) * 30));
   } else {
     score += 15; // цена не указана — нейтральный балл
   }
@@ -48,7 +43,7 @@ export function scoreListing(l: Listing): number {
   // Район (20 баллов): ищем название района в адресе или заголовке
   const text = `${l.address || ""} ${l.title || ""}`.toLowerCase();
   let districtFound = false;
-  for (const [district, pts] of Object.entries(DISTRICT_SCORE)) {
+  for (const [district, pts] of Object.entries(districtScore)) {
     if (text.includes(district.toLowerCase())) {
       score += pts;
       districtFound = true;

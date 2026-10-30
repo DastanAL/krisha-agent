@@ -1,8 +1,4 @@
 node_modules/
 dist/
 .env
-*.db
-*.db-shm
-*.db-wal
-krisha-agent-data.json
 logs/
