@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T08:12:27.311Z",
+  "generatedAt": "2026-10-31T10:24:19.266Z",
   "topDeals": [
     {
       "id": "primary:gate-city:1r:40m2",
@@ -23,7 +23,7 @@
       "postedAt": null,
       "code": "1112",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-10-31T08:12:27.103Z"
+      "lastSeenAt": "2026-10-31T10:24:19.090Z"
     },
     {
       "id": "primary:gate-city:2r:63m2",
@@ -47,7 +47,7 @@
       "postedAt": null,
       "code": "1113",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-10-31T08:12:27.104Z"
+      "lastSeenAt": "2026-10-31T10:24:19.091Z"
     },
     {
       "id": "primary:gate-city:3r:85m2",
@@ -71,7 +71,7 @@
       "postedAt": null,
       "code": "1114",
       "firstSeenAt": "2026-10-30T15:55:24.414Z",
-      "lastSeenAt": "2026-10-31T08:12:27.105Z"
+      "lastSeenAt": "2026-10-31T10:24:19.092Z"
     },
     {
       "id": "primary:eco-park-alatau:3r:70m2",
@@ -95,7 +95,7 @@
       "postedAt": null,
       "code": "1077",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-10-31T08:12:27.069Z"
+      "lastSeenAt": "2026-10-31T10:24:19.060Z"
     },
     {
       "id": "primary:eco-park-alatau:2r:56m2",
@@ -119,7 +119,7 @@
       "postedAt": null,
       "code": "1076",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-10-31T08:12:27.068Z"
+      "lastSeenAt": "2026-10-31T10:24:19.059Z"
     }
   ],
   "newOnes": [],
