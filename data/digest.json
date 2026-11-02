@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T11:17:38.395Z",
+  "generatedAt": "2026-11-02T12:19:07.182Z",
   "topDeals": [
     {
       "id": "primary:gate-city:1r:40m2",
@@ -23,7 +23,7 @@
       "postedAt": null,
       "code": "1112",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-01T11:17:38.213Z"
+      "lastSeenAt": "2026-11-02T12:19:07.029Z"
     },
     {
       "id": "primary:gate-city:2r:63m2",
@@ -47,7 +47,7 @@
       "postedAt": null,
       "code": "1113",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-01T11:17:38.214Z"
+      "lastSeenAt": "2026-11-02T12:19:07.030Z"
     },
     {
       "id": "primary:gate-city:3r:85m2",
@@ -71,7 +71,7 @@
       "postedAt": null,
       "code": "1114",
       "firstSeenAt": "2026-10-30T15:55:24.414Z",
-      "lastSeenAt": "2026-11-01T11:17:38.215Z"
+      "lastSeenAt": "2026-11-02T12:19:07.031Z"
     },
     {
       "id": "primary:eco-park-alatau:3r:70m2",
@@ -95,7 +95,7 @@
       "postedAt": null,
       "code": "1077",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-01T11:17:38.177Z"
+      "lastSeenAt": "2026-11-02T12:19:06.995Z"
     },
     {
       "id": "primary:eco-park-alatau:2r:56m2",
@@ -119,129 +119,33 @@
       "postedAt": null,
       "code": "1076",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-01T11:17:38.176Z"
+      "lastSeenAt": "2026-11-02T12:19:06.995Z"
     }
   ],
   "newOnes": [
     {
-      "id": "primary:autograph:2r:49m2",
+      "id": "primary:dream-city-art:2r:60m2",
       "market": "primary",
       "source": "krisha",
-      "title": "ЖК Autograph",
-      "url": "https://krisha.kz/complex/show/almaty/autograph/",
-      "price": 112930000,
-      "pricePerM2": 2300000,
+      "title": "ЖК Dream City. Art",
+      "url": "https://krisha.kz/complex/show/almaty/dreamcityart/",
+      "price": 48900000,
+      "pricePerM2": 818410,
       "rooms": 2,
-      "areaM2": 49.1,
+      "areaM2": 59.75,
       "floor": null,
       "district": "Медеуский",
-      "address": "Алматы, Медеуский р-н, ул. Жамакаева 191",
-      "complexName": "ЖК Autograph",
-      "developer": "AKAS Development",
-      "handoverDate": "Первая очередь - III квартал 2025 г.Вторая очередь - II квартал 2026 г.",
-      "housingClass": "элит",
+      "address": "Алматы, Медеуский р-н, ул. ​Приканальная БАК, 99а",
+      "complexName": "ЖК Dream City. Art",
+      "developer": "BI Group Юг",
+      "handoverDate": "Первая очередь - IV квартал 2026 г.Вторая очередь - I квартал 2027 г.",
+      "housingClass": "комфорт",
       "photos": [],
       "description": null,
       "postedAt": null,
-      "code": "1148",
-      "firstSeenAt": "2026-11-01T11:17:38.123Z",
-      "lastSeenAt": "2026-11-01T11:17:38.123Z"
-    },
-    {
-      "id": "primary:autograph:3r:96m2",
-      "market": "primary",
-      "source": "krisha",
-      "title": "ЖК Autograph",
-      "url": "https://krisha.kz/complex/show/almaty/autograph/",
-      "price": 183160000,
-      "pricePerM2": 1900000,
-      "rooms": 3,
-      "areaM2": 96.4,
-      "floor": null,
-      "district": "Медеуский",
-      "address": "Алматы, Медеуский р-н, ул. Жамакаева 191",
-      "complexName": "ЖК Autograph",
-      "developer": "AKAS Development",
-      "handoverDate": "Первая очередь - III квартал 2025 г.Вторая очередь - II квартал 2026 г.",
-      "housingClass": "элит",
-      "photos": [],
-      "description": null,
-      "postedAt": null,
-      "code": "1149",
-      "firstSeenAt": "2026-11-01T11:17:38.125Z",
-      "lastSeenAt": "2026-11-01T11:17:38.125Z"
-    },
-    {
-      "id": "primary:autograph:4r:125m2",
-      "market": "primary",
-      "source": "krisha",
-      "title": "ЖК Autograph",
-      "url": "https://krisha.kz/complex/show/almaty/autograph/",
-      "price": 281475000,
-      "pricePerM2": 2250000,
-      "rooms": 4,
-      "areaM2": 125.1,
-      "floor": null,
-      "district": "Медеуский",
-      "address": "Алматы, Медеуский р-н, ул. Жамакаева 191",
-      "complexName": "ЖК Autograph",
-      "developer": "AKAS Development",
-      "handoverDate": "Первая очередь - III квартал 2025 г.Вторая очередь - II квартал 2026 г.",
-      "housingClass": "элит",
-      "photos": [],
-      "description": null,
-      "postedAt": null,
-      "code": "1150",
-      "firstSeenAt": "2026-11-01T11:17:38.126Z",
-      "lastSeenAt": "2026-11-01T11:17:38.126Z"
-    },
-    {
-      "id": "primary:vertex-garden:2r:47m2",
-      "market": "primary",
-      "source": "krisha",
-      "title": "ЖК Vertex Garden",
-      "url": "https://krisha.kz/complex/show/almaty/vertexgarden/",
-      "price": 44928000,
-      "pricePerM2": 960000,
-      "rooms": 2,
-      "areaM2": 46.8,
-      "floor": null,
-      "district": "Медеуский",
-      "address": "Алматы, Медеуский р-н, ул. Талгата Бигельдинова, 138",
-      "complexName": "ЖК Vertex Garden",
-      "developer": "Vertex AG",
-      "handoverDate": "IV квартал 2026 г.",
-      "housingClass": "бизнес",
-      "photos": [],
-      "description": null,
-      "postedAt": null,
-      "code": "1151",
-      "firstSeenAt": "2026-11-01T11:17:38.154Z",
-      "lastSeenAt": "2026-11-01T11:17:38.154Z"
-    },
-    {
-      "id": "primary:vertex-garden:3r:92m2",
-      "market": "primary",
-      "source": "krisha",
-      "title": "ЖК Vertex Garden",
-      "url": "https://krisha.kz/complex/show/almaty/vertexgarden/",
-      "price": 75112000,
-      "pricePerM2": 820000,
-      "rooms": 3,
-      "areaM2": 91.6,
-      "floor": null,
-      "district": "Медеуский",
-      "address": "Алматы, Медеуский р-н, ул. Талгата Бигельдинова, 138",
-      "complexName": "ЖК Vertex Garden",
-      "developer": "Vertex AG",
-      "handoverDate": "IV квартал 2026 г.",
-      "housingClass": "бизнес",
-      "photos": [],
-      "description": null,
-      "postedAt": null,
-      "code": "1152",
-      "firstSeenAt": "2026-11-01T11:17:38.155Z",
-      "lastSeenAt": "2026-11-01T11:17:38.155Z"
+      "code": "1153",
+      "firstSeenAt": "2026-11-02T12:19:06.969Z",
+      "lastSeenAt": "2026-11-02T12:19:06.969Z"
     }
   ],
   "priceDrops": [],
