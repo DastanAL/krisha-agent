@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T12:19:07.182Z",
+  "generatedAt": "2026-11-03T11:53:43.733Z",
   "topDeals": [
     {
       "id": "primary:gate-city:1r:40m2",
@@ -23,7 +23,7 @@
       "postedAt": null,
       "code": "1112",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-02T12:19:07.029Z"
+      "lastSeenAt": "2026-11-03T11:53:39.546Z"
     },
     {
       "id": "primary:gate-city:2r:63m2",
@@ -47,7 +47,7 @@
       "postedAt": null,
       "code": "1113",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-02T12:19:07.030Z"
+      "lastSeenAt": "2026-11-03T11:53:39.547Z"
     },
     {
       "id": "primary:gate-city:3r:85m2",
@@ -71,7 +71,7 @@
       "postedAt": null,
       "code": "1114",
       "firstSeenAt": "2026-10-30T15:55:24.414Z",
-      "lastSeenAt": "2026-11-02T12:19:07.031Z"
+      "lastSeenAt": "2026-11-03T11:53:39.548Z"
     },
     {
       "id": "primary:eco-park-alatau:3r:70m2",
@@ -95,7 +95,7 @@
       "postedAt": null,
       "code": "1077",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-02T12:19:06.995Z"
+      "lastSeenAt": "2026-11-03T11:53:39.511Z"
     },
     {
       "id": "primary:eco-park-alatau:2r:56m2",
@@ -119,35 +119,168 @@
       "postedAt": null,
       "code": "1076",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-02T12:19:06.995Z"
+      "lastSeenAt": "2026-11-03T11:53:39.510Z"
     }
   ],
   "newOnes": [
     {
-      "id": "primary:dream-city-art:2r:60m2",
+      "id": "primary:apple-residence:2r:78m2",
       "market": "primary",
       "source": "krisha",
-      "title": "ЖК Dream City. Art",
-      "url": "https://krisha.kz/complex/show/almaty/dreamcityart/",
-      "price": 48900000,
-      "pricePerM2": 818410,
+      "title": "ЖК Apple Residence",
+      "url": "https://krisha.kz/complex/show/almaty/appleresidence/",
+      "price": 74290000,
+      "pricePerM2": 950000,
       "rooms": 2,
-      "areaM2": 59.75,
+      "areaM2": 78.2,
       "floor": null,
-      "district": "Медеуский",
-      "address": "Алматы, Медеуский р-н, ул. ​Приканальная БАК, 99а",
-      "complexName": "ЖК Dream City. Art",
+      "district": "Ауэзовский",
+      "address": "Алматы, Ауэзовский р-н, ул. Аскарова, 8, 8/1, 8/2, 8/3",
+      "complexName": "ЖК Apple Residence",
+      "developer": "Barys Stroy",
+      "handoverDate": "IV квартал 2025 г.",
+      "housingClass": "бизнес",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1154",
+      "firstSeenAt": "2026-11-03T11:53:39.439Z",
+      "lastSeenAt": "2026-11-03T11:53:39.439Z"
+    },
+    {
+      "id": "primary:apple-residence:3r:96m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Apple Residence",
+      "url": "https://krisha.kz/complex/show/almaty/appleresidence/",
+      "price": 91200000,
+      "pricePerM2": 950000,
+      "rooms": 3,
+      "areaM2": 96,
+      "floor": null,
+      "district": "Ауэзовский",
+      "address": "Алматы, Ауэзовский р-н, ул. Аскарова, 8, 8/1, 8/2, 8/3",
+      "complexName": "ЖК Apple Residence",
+      "developer": "Barys Stroy",
+      "handoverDate": "IV квартал 2025 г.",
+      "housingClass": "бизнес",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1155",
+      "firstSeenAt": "2026-11-03T11:53:39.440Z",
+      "lastSeenAt": "2026-11-03T11:53:39.440Z"
+    },
+    {
+      "id": "primary:apple-residence:5r:179m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Apple Residence",
+      "url": "https://krisha.kz/complex/show/almaty/appleresidence/",
+      "price": 151810000,
+      "pricePerM2": 850000,
+      "rooms": 5,
+      "areaM2": 178.6,
+      "floor": null,
+      "district": "Ауэзовский",
+      "address": "Алматы, Ауэзовский р-н, ул. Аскарова, 8, 8/1, 8/2, 8/3",
+      "complexName": "ЖК Apple Residence",
+      "developer": "Barys Stroy",
+      "handoverDate": "IV квартал 2025 г.",
+      "housingClass": "бизнес",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1156",
+      "firstSeenAt": "2026-11-03T11:53:39.441Z",
+      "lastSeenAt": "2026-11-03T11:53:39.441Z"
+    },
+    {
+      "id": "primary:arena-city-life:1r:39m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Arena City. Life",
+      "url": "https://krisha.kz/complex/show/almaty/arenacitylife/",
+      "price": 33834640,
+      "pricePerM2": 868000,
+      "rooms": 1,
+      "areaM2": 38.98,
+      "floor": null,
+      "district": "Алатауский",
+      "address": "Алматы, Алатауский р-н, ул. Ботакоз, 2/1",
+      "complexName": "ЖК Arena City. Life",
       "developer": "BI Group Юг",
-      "handoverDate": "Первая очередь - IV квартал 2026 г.Вторая очередь - I квартал 2027 г.",
+      "handoverDate": "Первая очередь - IV квартал 2025 г.Вторая очередь - IV квартал 2026 г.Третья очередь - II квартал 2027 г.",
+      "housingClass": "бизнес",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1157",
+      "firstSeenAt": "2026-11-03T11:53:39.491Z",
+      "lastSeenAt": "2026-11-03T11:53:39.491Z"
+    },
+    {
+      "id": "primary:бигвилль-dream-city-eco:1r:38m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "Бигвилль Dream City. Eco",
+      "url": "https://krisha.kz/complex/show/almaty/dreamcityeco/",
+      "price": 31700000,
+      "pricePerM2": 836853,
+      "rooms": 1,
+      "areaM2": 37.88,
+      "floor": null,
+      "district": "Турксибский",
+      "address": "Алматы, Турксибский р-н, Кайрат микрорайон, 716/16",
+      "complexName": "Бигвилль Dream City. Eco",
+      "developer": "BI Group Юг",
+      "handoverDate": "Первая очередь - IV квартал 2025 г.Вторая очередь - I квартал 2026 г.Третья очередь - III квартал 2026 г.",
       "housingClass": "комфорт",
       "photos": [],
       "description": null,
       "postedAt": null,
-      "code": "1153",
-      "firstSeenAt": "2026-11-02T12:19:06.969Z",
-      "lastSeenAt": "2026-11-02T12:19:06.969Z"
+      "code": "1158",
+      "firstSeenAt": "2026-11-03T11:53:39.505Z",
+      "lastSeenAt": "2026-11-03T11:53:39.505Z"
     }
   ],
-  "priceDrops": [],
+  "priceDrops": [
+    {
+      "listing": {
+        "id": "primary:vesper:2r:60m2",
+        "market": "primary",
+        "source": "krisha",
+        "title": "ЖК Vesper",
+        "url": "https://krisha.kz/complex/show/almaty/vesper/",
+        "price": 142800000,
+        "pricePerM2": 2373670,
+        "rooms": 2,
+        "areaM2": 60.16,
+        "floor": null,
+        "district": "Бостандыкский",
+        "address": "Алматы, Бостандыкский р-н, Проспект Аль-Фараби и улица Маркова",
+        "complexName": "ЖК Vesper",
+        "developer": "BAZIS–А",
+        "handoverDate": "IV квартал 2026 г.",
+        "housingClass": "элит",
+        "photos": [],
+        "description": null,
+        "postedAt": null,
+        "code": "1013",
+        "firstSeenAt": "2026-10-30T15:55:24.367Z",
+        "lastSeenAt": "2026-11-03T11:53:39.453Z",
+        "priceHistory": [
+          {
+            "oldPrice": 148400000,
+            "newPrice": 142800000,
+            "changedAt": "2026-11-03T11:53:39.452Z"
+          }
+        ]
+      },
+      "oldPrice": 148400000,
+      "newPrice": 142800000,
+      "pct": 3.7735849056603774
+    }
+  ],
   "sourceFailures": []
 }
