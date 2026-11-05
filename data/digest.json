@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T12:06:04.484Z",
+  "generatedAt": "2026-11-05T12:10:05.452Z",
   "topDeals": [
     {
       "id": "primary:gate-city:1r:40m2",
@@ -23,7 +23,7 @@
       "postedAt": null,
       "code": "1112",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-04T12:06:01.523Z"
+      "lastSeenAt": "2026-11-05T12:10:05.248Z"
     },
     {
       "id": "primary:gate-city:2r:63m2",
@@ -47,7 +47,7 @@
       "postedAt": null,
       "code": "1113",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-04T12:06:01.524Z"
+      "lastSeenAt": "2026-11-05T12:10:05.249Z"
     },
     {
       "id": "primary:gate-city:3r:85m2",
@@ -71,7 +71,7 @@
       "postedAt": null,
       "code": "1114",
       "firstSeenAt": "2026-10-30T15:55:24.414Z",
-      "lastSeenAt": "2026-11-04T12:06:01.525Z"
+      "lastSeenAt": "2026-11-05T12:10:05.250Z"
     },
     {
       "id": "primary:eco-park-alatau:3r:70m2",
@@ -95,7 +95,7 @@
       "postedAt": null,
       "code": "1077",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-04T12:06:01.488Z"
+      "lastSeenAt": "2026-11-05T12:10:05.213Z"
     },
     {
       "id": "primary:eco-park-alatau:2r:56m2",
@@ -119,180 +119,10 @@
       "postedAt": null,
       "code": "1076",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-04T12:06:01.487Z"
+      "lastSeenAt": "2026-11-05T12:10:05.212Z"
     }
   ],
-  "newOnes": [
-    {
-      "id": "primary:buta-meken:1r:25m2",
-      "market": "primary",
-      "source": "krisha",
-      "title": "ЖК BUTA Meken",
-      "url": "https://krisha.kz/complex/show/almaty/butameken/",
-      "price": 17191956,
-      "pricePerM2": 690440,
-      "rooms": 1,
-      "areaM2": 24.9,
-      "floor": null,
-      "district": "Алатауский",
-      "address": "Алматы, Алатауский р-н, ул. Шарайна, уч. 111/1",
-      "complexName": "ЖК BUTA Meken",
-      "developer": "BUTA Group",
-      "handoverDate": "Первая очередь - III квартал 2027 г.Вторая очередь - II квартал 2028 г.",
-      "housingClass": "комфорт",
-      "photos": [],
-      "description": null,
-      "postedAt": null,
-      "code": "1159",
-      "firstSeenAt": "2026-11-04T12:06:01.409Z",
-      "lastSeenAt": "2026-11-04T12:06:01.409Z"
-    },
-    {
-      "id": "primary:buta-meken:2r:47m2",
-      "market": "primary",
-      "source": "krisha",
-      "title": "ЖК BUTA Meken",
-      "url": "https://krisha.kz/complex/show/almaty/butameken/",
-      "price": 29343454,
-      "pricePerM2": 625660,
-      "rooms": 2,
-      "areaM2": 46.9,
-      "floor": null,
-      "district": "Алатауский",
-      "address": "Алматы, Алатауский р-н, ул. Шарайна, уч. 111/1",
-      "complexName": "ЖК BUTA Meken",
-      "developer": "BUTA Group",
-      "handoverDate": "Первая очередь - III квартал 2027 г.Вторая очередь - II квартал 2028 г.",
-      "housingClass": "комфорт",
-      "photos": [],
-      "description": null,
-      "postedAt": null,
-      "code": "1160",
-      "firstSeenAt": "2026-11-04T12:06:01.412Z",
-      "lastSeenAt": "2026-11-04T12:06:01.412Z"
-    },
-    {
-      "id": "primary:buta-meken:3r:72m2",
-      "market": "primary",
-      "source": "krisha",
-      "title": "ЖК BUTA Meken",
-      "url": "https://krisha.kz/complex/show/almaty/butameken/",
-      "price": 41920368,
-      "pricePerM2": 585480,
-      "rooms": 3,
-      "areaM2": 71.6,
-      "floor": null,
-      "district": "Алатауский",
-      "address": "Алматы, Алатауский р-н, ул. Шарайна, уч. 111/1",
-      "complexName": "ЖК BUTA Meken",
-      "developer": "BUTA Group",
-      "handoverDate": "Первая очередь - III квартал 2027 г.Вторая очередь - II квартал 2028 г.",
-      "housingClass": "комфорт",
-      "photos": [],
-      "description": null,
-      "postedAt": null,
-      "code": "1161",
-      "firstSeenAt": "2026-11-04T12:06:01.413Z",
-      "lastSeenAt": "2026-11-04T12:06:01.413Z"
-    },
-    {
-      "id": "primary:apple-residence:3r:108m2",
-      "market": "primary",
-      "source": "krisha",
-      "title": "ЖК Apple Residence",
-      "url": "https://krisha.kz/complex/show/almaty/appleresidence/",
-      "price": 91630000,
-      "pricePerM2": 850000,
-      "rooms": 3,
-      "areaM2": 107.8,
-      "floor": null,
-      "district": "Ауэзовский",
-      "address": "Алматы, Ауэзовский р-н, ул. Аскарова, 8, 8/1, 8/2, 8/3",
-      "complexName": "ЖК Apple Residence",
-      "developer": "Barys Stroy",
-      "handoverDate": "IV квартал 2025 г.",
-      "housingClass": "бизнес",
-      "photos": [],
-      "description": null,
-      "postedAt": null,
-      "code": "1162",
-      "firstSeenAt": "2026-11-04T12:06:01.419Z",
-      "lastSeenAt": "2026-11-04T12:06:01.419Z"
-    }
-  ],
-  "priceDrops": [
-    {
-      "listing": {
-        "id": "primary:apple-residence:2r:78m2",
-        "market": "primary",
-        "source": "krisha",
-        "title": "ЖК Apple Residence",
-        "url": "https://krisha.kz/complex/show/almaty/appleresidence/",
-        "price": 66470000,
-        "pricePerM2": 850000,
-        "rooms": 2,
-        "areaM2": 78.2,
-        "floor": null,
-        "district": "Ауэзовский",
-        "address": "Алматы, Ауэзовский р-н, ул. Аскарова, 8, 8/1, 8/2, 8/3",
-        "complexName": "ЖК Apple Residence",
-        "developer": "Barys Stroy",
-        "handoverDate": "IV квартал 2025 г.",
-        "housingClass": "бизнес",
-        "photos": [],
-        "description": null,
-        "postedAt": null,
-        "code": "1154",
-        "firstSeenAt": "2026-11-03T11:53:39.439Z",
-        "lastSeenAt": "2026-11-04T12:06:01.418Z",
-        "priceHistory": [
-          {
-            "oldPrice": 74290000,
-            "newPrice": 66470000,
-            "changedAt": "2026-11-04T12:06:01.417Z"
-          }
-        ]
-      },
-      "oldPrice": 74290000,
-      "newPrice": 66470000,
-      "pct": 10.526315789473683
-    },
-    {
-      "listing": {
-        "id": "primary:бигвилль-dream-city-family:2r:46m2",
-        "market": "primary",
-        "source": "krisha",
-        "title": "Бигвилль Dream City. Family",
-        "url": "https://krisha.kz/complex/show/almaty/dreamcityfamily/",
-        "price": 41200000,
-        "pricePerM2": 895068,
-        "rooms": 2,
-        "areaM2": 46.03,
-        "floor": null,
-        "district": "Турксибский",
-        "address": "Алматы, Турксибский р-н, ул. Тараз, 8/1",
-        "complexName": "Бигвилль Dream City. Family",
-        "developer": "BI Group Юг",
-        "handoverDate": "Первая очередь - IV квартал 2025 г.Вторая очередь - IV квартал 2026 г.",
-        "housingClass": "комфорт",
-        "photos": [],
-        "description": null,
-        "postedAt": null,
-        "code": "1064",
-        "firstSeenAt": "2026-10-30T15:55:24.383Z",
-        "lastSeenAt": "2026-11-04T12:06:01.483Z",
-        "priceHistory": [
-          {
-            "oldPrice": 41600000,
-            "newPrice": 41200000,
-            "changedAt": "2026-11-04T12:06:01.482Z"
-          }
-        ]
-      },
-      "oldPrice": 41600000,
-      "newPrice": 41200000,
-      "pct": 0.9615384615384616
-    }
-  ],
+  "newOnes": [],
+  "priceDrops": [],
   "sourceFailures": []
 }
