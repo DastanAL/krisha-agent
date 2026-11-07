@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T12:05:24.826Z",
-  "codeSeq": 1162,
+  "generatedAt": "2026-11-07T11:05:40.483Z",
+  "codeSeq": 1177,
   "listings": {
     "primary:silver-hills:3r:108m2": {
       "id": "primary:silver-hills:3r:108m2",
@@ -25,7 +25,7 @@
       "postedAt": null,
       "code": "1001",
       "firstSeenAt": "2026-10-30T15:55:24.363Z",
-      "lastSeenAt": "2026-11-06T12:05:24.565Z"
+      "lastSeenAt": "2026-11-07T11:05:40.052Z"
     },
     "primary:silver-hills:5r:276m2": {
       "id": "primary:silver-hills:5r:276m2",
@@ -49,7 +49,7 @@
       "postedAt": null,
       "code": "1002",
       "firstSeenAt": "2026-10-30T15:55:24.364Z",
-      "lastSeenAt": "2026-11-06T12:05:24.566Z"
+      "lastSeenAt": "2026-11-07T11:05:40.054Z"
     },
     "primary:diamond:1r:37m2": {
       "id": "primary:diamond:1r:37m2",
@@ -73,7 +73,7 @@
       "postedAt": null,
       "code": "1003",
       "firstSeenAt": "2026-10-30T15:55:24.364Z",
-      "lastSeenAt": "2026-11-06T12:05:24.572Z"
+      "lastSeenAt": "2026-11-07T11:05:40.100Z"
     },
     "primary:diamond:2r:75m2": {
       "id": "primary:diamond:2r:75m2",
@@ -97,7 +97,7 @@
       "postedAt": null,
       "code": "1004",
       "firstSeenAt": "2026-10-30T15:55:24.364Z",
-      "lastSeenAt": "2026-11-06T12:05:24.572Z"
+      "lastSeenAt": "2026-11-07T11:05:40.101Z"
     },
     "primary:diamond:3r:107m2": {
       "id": "primary:diamond:3r:107m2",
@@ -121,7 +121,7 @@
       "postedAt": null,
       "code": "1005",
       "firstSeenAt": "2026-10-30T15:55:24.365Z",
-      "lastSeenAt": "2026-11-06T12:05:24.573Z"
+      "lastSeenAt": "2026-11-07T11:05:40.102Z"
     },
     "primary:diamond:4r:145m2": {
       "id": "primary:diamond:4r:145m2",
@@ -145,7 +145,7 @@
       "postedAt": null,
       "code": "1006",
       "firstSeenAt": "2026-10-30T15:55:24.365Z",
-      "lastSeenAt": "2026-11-06T12:05:24.574Z"
+      "lastSeenAt": "2026-11-07T11:05:40.103Z"
     },
     "primary:diamond:7r:285m2": {
       "id": "primary:diamond:7r:285m2",
@@ -169,7 +169,7 @@
       "postedAt": null,
       "code": "1007",
       "firstSeenAt": "2026-10-30T15:55:24.365Z",
-      "lastSeenAt": "2026-11-06T12:05:24.574Z"
+      "lastSeenAt": "2026-11-07T11:05:40.104Z"
     },
     "primary:kamenka-park:3r:74m2": {
       "id": "primary:kamenka-park:3r:74m2",
@@ -193,7 +193,7 @@
       "postedAt": null,
       "code": "1008",
       "firstSeenAt": "2026-10-30T15:55:24.366Z",
-      "lastSeenAt": "2026-11-06T12:05:24.568Z"
+      "lastSeenAt": "2026-11-07T11:05:40.096Z"
     },
     "primary:kamenka-park:4r:130m2": {
       "id": "primary:kamenka-park:4r:130m2",
@@ -217,7 +217,7 @@
       "postedAt": null,
       "code": "1009",
       "firstSeenAt": "2026-10-30T15:55:24.366Z",
-      "lastSeenAt": "2026-11-06T12:05:24.569Z"
+      "lastSeenAt": "2026-11-07T11:05:40.097Z"
     },
     "primary:taulan:1r:38m2": {
       "id": "primary:taulan:1r:38m2",
@@ -249,7 +249,7 @@
       ],
       "code": "1010",
       "firstSeenAt": "2026-10-30T15:55:24.367Z",
-      "lastSeenAt": "2026-11-06T12:05:24.577Z"
+      "lastSeenAt": "2026-11-07T11:05:40.057Z"
     },
     "primary:taulan:2r:49m2": {
       "id": "primary:taulan:2r:49m2",
@@ -281,7 +281,7 @@
       ],
       "code": "1011",
       "firstSeenAt": "2026-10-30T15:55:24.367Z",
-      "lastSeenAt": "2026-11-06T12:05:24.578Z"
+      "lastSeenAt": "2026-11-07T11:05:40.058Z"
     },
     "primary:taulan:3r:74m2": {
       "id": "primary:taulan:3r:74m2",
@@ -313,7 +313,7 @@
       ],
       "code": "1012",
       "firstSeenAt": "2026-10-30T15:55:24.367Z",
-      "lastSeenAt": "2026-11-06T12:05:24.578Z"
+      "lastSeenAt": "2026-11-07T11:05:40.058Z"
     },
     "primary:vesper:2r:60m2": {
       "id": "primary:vesper:2r:60m2",
@@ -337,7 +337,7 @@
       "postedAt": null,
       "code": "1013",
       "firstSeenAt": "2026-10-30T15:55:24.367Z",
-      "lastSeenAt": "2026-11-06T12:05:24.575Z",
+      "lastSeenAt": "2026-11-07T11:05:40.071Z",
       "priceHistory": [
         {
           "oldPrice": 148400000,
@@ -368,7 +368,7 @@
       "postedAt": null,
       "code": "1014",
       "firstSeenAt": "2026-10-30T15:55:24.368Z",
-      "lastSeenAt": "2026-11-06T12:05:24.576Z"
+      "lastSeenAt": "2026-11-07T11:05:40.071Z"
     },
     "primary:vesper:4r:138m2": {
       "id": "primary:vesper:4r:138m2",
@@ -392,7 +392,7 @@
       "postedAt": null,
       "code": "1015",
       "firstSeenAt": "2026-10-30T15:55:24.368Z",
-      "lastSeenAt": "2026-11-06T12:05:24.576Z"
+      "lastSeenAt": "2026-11-07T11:05:40.072Z"
     },
     "primary:estet:2r:62m2": {
       "id": "primary:estet:2r:62m2",
@@ -416,7 +416,7 @@
       "postedAt": null,
       "code": "1016",
       "firstSeenAt": "2026-10-30T15:55:24.368Z",
-      "lastSeenAt": "2026-11-06T12:05:24.583Z"
+      "lastSeenAt": "2026-11-07T11:05:40.080Z"
     },
     "primary:estet:3r:77m2": {
       "id": "primary:estet:3r:77m2",
@@ -440,7 +440,7 @@
       "postedAt": null,
       "code": "1017",
       "firstSeenAt": "2026-10-30T15:55:24.369Z",
-      "lastSeenAt": "2026-11-06T12:05:24.584Z"
+      "lastSeenAt": "2026-11-07T11:05:40.081Z"
     },
     "primary:клубный-дом-parkville:2r:55m2": {
       "id": "primary:клубный-дом-parkville:2r:55m2",
@@ -448,10 +448,10 @@
       "source": "krisha",
       "title": "Клубный дом PARKVILLE",
       "url": "https://krisha.kz/complex/show/almaty/parkville/",
-      "price": 66240000,
-      "pricePerM2": 1200000,
+      "price": 78700000,
+      "pricePerM2": 1444037,
       "rooms": 2,
-      "areaM2": 55.2,
+      "areaM2": 54.5,
       "floor": null,
       "district": "Наурызбайский",
       "address": "Алматы, Наурызбайский р-н, ул. Кенесары хана, 43/7",
@@ -464,7 +464,14 @@
       "postedAt": null,
       "code": "1018",
       "firstSeenAt": "2026-10-30T15:55:24.369Z",
-      "lastSeenAt": "2026-11-06T12:05:24.579Z"
+      "lastSeenAt": "2026-11-07T11:05:40.086Z",
+      "priceHistory": [
+        {
+          "oldPrice": 66240000,
+          "newPrice": 78700000,
+          "changedAt": "2026-11-07T11:05:40.085Z"
+        }
+      ]
     },
     "primary:клубный-дом-parkville:3r:95m2": {
       "id": "primary:клубный-дом-parkville:3r:95m2",
@@ -472,10 +479,10 @@
       "source": "krisha",
       "title": "Клубный дом PARKVILLE",
       "url": "https://krisha.kz/complex/show/almaty/parkville/",
-      "price": 113760000,
-      "pricePerM2": 1200000,
+      "price": 167000000,
+      "pricePerM2": 1757895,
       "rooms": 3,
-      "areaM2": 94.8,
+      "areaM2": 95,
       "floor": null,
       "district": "Наурызбайский",
       "address": "Алматы, Наурызбайский р-н, ул. Кенесары хана, 43/7",
@@ -488,7 +495,14 @@
       "postedAt": null,
       "code": "1019",
       "firstSeenAt": "2026-10-30T15:55:24.369Z",
-      "lastSeenAt": "2026-11-06T12:05:24.580Z"
+      "lastSeenAt": "2026-11-07T11:05:40.088Z",
+      "priceHistory": [
+        {
+          "oldPrice": 113760000,
+          "newPrice": 167000000,
+          "changedAt": "2026-11-07T11:05:40.087Z"
+        }
+      ]
     },
     "primary:клубный-дом-parkville:4r:132m2": {
       "id": "primary:клубный-дом-parkville:4r:132m2",
@@ -536,7 +550,7 @@
       "postedAt": null,
       "code": "1021",
       "firstSeenAt": "2026-10-30T15:55:24.370Z",
-      "lastSeenAt": "2026-11-06T12:05:24.581Z"
+      "lastSeenAt": "2026-11-07T11:05:40.105Z"
     },
     "primary:kosmonavtova:3r:120m2": {
       "id": "primary:kosmonavtova:3r:120m2",
@@ -560,7 +574,7 @@
       "postedAt": null,
       "code": "1022",
       "firstSeenAt": "2026-10-30T15:55:24.370Z",
-      "lastSeenAt": "2026-11-06T12:05:24.581Z"
+      "lastSeenAt": "2026-11-07T11:05:40.106Z"
     },
     "primary:kosmonavtova:4r:117m2": {
       "id": "primary:kosmonavtova:4r:117m2",
@@ -584,7 +598,7 @@
       "postedAt": null,
       "code": "1023",
       "firstSeenAt": "2026-10-30T15:55:24.370Z",
-      "lastSeenAt": "2026-11-06T12:05:24.582Z"
+      "lastSeenAt": "2026-11-07T11:05:40.107Z"
     },
     "primary:7su-nury:1r:62m2": {
       "id": "primary:7su-nury:1r:62m2",
@@ -632,7 +646,7 @@
       "postedAt": null,
       "code": "1025",
       "firstSeenAt": "2026-10-30T15:55:24.371Z",
-      "lastSeenAt": "2026-11-06T12:05:24.584Z"
+      "lastSeenAt": "2026-11-07T11:05:40.108Z"
     },
     "primary:7su-nury:3r:115m2": {
       "id": "primary:7su-nury:3r:115m2",
@@ -656,7 +670,7 @@
       "postedAt": null,
       "code": "1026",
       "firstSeenAt": "2026-10-30T15:55:24.371Z",
-      "lastSeenAt": "2026-11-06T12:05:24.585Z"
+      "lastSeenAt": "2026-11-07T11:05:40.108Z"
     },
     "primary:parasat-2:1r:42m2": {
       "id": "primary:parasat-2:1r:42m2",
@@ -688,7 +702,7 @@
       ],
       "code": "1027",
       "firstSeenAt": "2026-10-30T15:55:24.371Z",
-      "lastSeenAt": "2026-11-06T12:05:24.585Z"
+      "lastSeenAt": "2026-11-07T11:05:40.109Z"
     },
     "primary:parasat-2:2r:55m2": {
       "id": "primary:parasat-2:2r:55m2",
@@ -720,7 +734,7 @@
       ],
       "code": "1028",
       "firstSeenAt": "2026-10-30T15:55:24.372Z",
-      "lastSeenAt": "2026-11-06T12:05:24.586Z"
+      "lastSeenAt": "2026-11-07T11:05:40.110Z"
     },
     "primary:esentai-city-villas:3r:124m2": {
       "id": "primary:esentai-city-villas:3r:124m2",
@@ -744,7 +758,7 @@
       "postedAt": null,
       "code": "1029",
       "firstSeenAt": "2026-10-30T15:55:24.372Z",
-      "lastSeenAt": "2026-11-06T12:05:24.586Z"
+      "lastSeenAt": "2026-11-07T11:05:40.111Z"
     },
     "primary:esentai-city-villas:4r:192m2": {
       "id": "primary:esentai-city-villas:4r:192m2",
@@ -768,7 +782,7 @@
       "postedAt": null,
       "code": "1030",
       "firstSeenAt": "2026-10-30T15:55:24.372Z",
-      "lastSeenAt": "2026-11-06T12:05:24.587Z"
+      "lastSeenAt": "2026-11-07T11:05:40.112Z"
     },
     "primary:esentai-city-villas:5r:207m2": {
       "id": "primary:esentai-city-villas:5r:207m2",
@@ -792,7 +806,7 @@
       "postedAt": null,
       "code": "1031",
       "firstSeenAt": "2026-10-30T15:55:24.373Z",
-      "lastSeenAt": "2026-11-06T12:05:24.588Z"
+      "lastSeenAt": "2026-11-07T11:05:40.113Z"
     },
     "primary:neopark:2r:50m2": {
       "id": "primary:neopark:2r:50m2",
@@ -816,7 +830,7 @@
       "postedAt": null,
       "code": "1032",
       "firstSeenAt": "2026-10-30T15:55:24.373Z",
-      "lastSeenAt": "2026-10-31T10:24:19.025Z"
+      "lastSeenAt": "2026-11-07T11:05:40.090Z"
     },
     "primary:neopark:3r:68m2": {
       "id": "primary:neopark:3r:68m2",
@@ -824,8 +838,8 @@
       "source": "krisha",
       "title": "ЖК NEOPARK",
       "url": "https://krisha.kz/complex/show/almaty/neopark/",
-      "price": 59500000,
-      "pricePerM2": 880178,
+      "price": 59200000,
+      "pricePerM2": 875740,
       "rooms": 3,
       "areaM2": 67.6,
       "floor": null,
@@ -840,7 +854,14 @@
       "postedAt": null,
       "code": "1033",
       "firstSeenAt": "2026-10-30T15:55:24.373Z",
-      "lastSeenAt": "2026-10-31T10:24:19.026Z"
+      "lastSeenAt": "2026-11-07T11:05:40.092Z",
+      "priceHistory": [
+        {
+          "oldPrice": 59500000,
+          "newPrice": 59200000,
+          "changedAt": "2026-11-07T11:05:40.091Z"
+        }
+      ]
     },
     "primary:бигвилль-jibek-joly:1r:35m2": {
       "id": "primary:бигвилль-jibek-joly:1r:35m2",
@@ -864,7 +885,7 @@
       "postedAt": null,
       "code": "1034",
       "firstSeenAt": "2026-10-30T15:55:24.374Z",
-      "lastSeenAt": "2026-11-06T12:05:24.589Z"
+      "lastSeenAt": "2026-11-07T11:05:40.114Z"
     },
     "primary:бигвилль-jibek-joly:2r:43m2": {
       "id": "primary:бигвилль-jibek-joly:2r:43m2",
@@ -912,7 +933,7 @@
       "postedAt": null,
       "code": "1036",
       "firstSeenAt": "2026-10-30T15:55:24.374Z",
-      "lastSeenAt": "2026-11-06T12:05:24.590Z"
+      "lastSeenAt": "2026-11-07T11:05:40.116Z"
     },
     "primary:бигвилль-jibek-joly:4r:110m2": {
       "id": "primary:бигвилль-jibek-joly:4r:110m2",
@@ -936,7 +957,7 @@
       "postedAt": null,
       "code": "1037",
       "firstSeenAt": "2026-10-30T15:55:24.374Z",
-      "lastSeenAt": "2026-11-06T12:05:24.591Z"
+      "lastSeenAt": "2026-11-07T11:05:40.116Z"
     },
     "primary:1st-by-bi:3r:125m2": {
       "id": "primary:1st-by-bi:3r:125m2",
@@ -960,7 +981,7 @@
       "postedAt": null,
       "code": "1038",
       "firstSeenAt": "2026-10-30T15:55:24.375Z",
-      "lastSeenAt": "2026-11-06T12:05:24.592Z"
+      "lastSeenAt": "2026-11-07T11:05:40.117Z"
     },
     "primary:1st-by-bi:4r:174m2": {
       "id": "primary:1st-by-bi:4r:174m2",
@@ -984,7 +1005,7 @@
       "postedAt": null,
       "code": "1039",
       "firstSeenAt": "2026-10-30T15:55:24.375Z",
-      "lastSeenAt": "2026-11-06T12:05:24.592Z"
+      "lastSeenAt": "2026-11-07T11:05:40.118Z"
     },
     "primary:arena-city-park:1r:30m2": {
       "id": "primary:arena-city-park:1r:30m2",
@@ -1008,7 +1029,7 @@
       "postedAt": null,
       "code": "1040",
       "firstSeenAt": "2026-10-30T15:55:24.375Z",
-      "lastSeenAt": "2026-11-06T12:05:24.593Z"
+      "lastSeenAt": "2026-11-07T11:05:40.119Z"
     },
     "primary:arena-city-park:2r:45m2": {
       "id": "primary:arena-city-park:2r:45m2",
@@ -1032,7 +1053,7 @@
       "postedAt": null,
       "code": "1041",
       "firstSeenAt": "2026-10-30T15:55:24.376Z",
-      "lastSeenAt": "2026-11-06T12:05:24.593Z"
+      "lastSeenAt": "2026-11-07T11:05:40.120Z"
     },
     "primary:arena-city-park:3r:85m2": {
       "id": "primary:arena-city-park:3r:85m2",
@@ -1056,7 +1077,7 @@
       "postedAt": null,
       "code": "1042",
       "firstSeenAt": "2026-10-30T15:55:24.376Z",
-      "lastSeenAt": "2026-11-06T12:05:24.594Z",
+      "lastSeenAt": "2026-11-07T11:05:40.121Z",
       "priceHistory": [
         {
           "oldPrice": 63900000,
@@ -1087,7 +1108,7 @@
       "postedAt": null,
       "code": "1043",
       "firstSeenAt": "2026-10-30T15:55:24.376Z",
-      "lastSeenAt": "2026-11-06T12:05:24.595Z"
+      "lastSeenAt": "2026-11-07T11:05:40.122Z"
     },
     "primary:arena-city-balance:1r:34m2": {
       "id": "primary:arena-city-balance:1r:34m2",
@@ -1111,7 +1132,7 @@
       "postedAt": null,
       "code": "1044",
       "firstSeenAt": "2026-10-30T15:55:24.377Z",
-      "lastSeenAt": "2026-11-06T12:05:24.595Z",
+      "lastSeenAt": "2026-11-07T11:05:40.123Z",
       "priceHistory": [
         {
           "oldPrice": 29100000,
@@ -1142,7 +1163,7 @@
       "postedAt": null,
       "code": "1045",
       "firstSeenAt": "2026-10-30T15:55:24.377Z",
-      "lastSeenAt": "2026-11-06T12:05:24.596Z"
+      "lastSeenAt": "2026-11-07T11:05:40.124Z"
     },
     "primary:arena-city-balance:3r:66m2": {
       "id": "primary:arena-city-balance:3r:66m2",
@@ -1166,7 +1187,7 @@
       "postedAt": null,
       "code": "1046",
       "firstSeenAt": "2026-10-30T15:55:24.377Z",
-      "lastSeenAt": "2026-11-06T12:05:24.597Z"
+      "lastSeenAt": "2026-11-07T11:05:40.124Z"
     },
     "primary:arena-city-balance:4r:112m2": {
       "id": "primary:arena-city-balance:4r:112m2",
@@ -1190,7 +1211,7 @@
       "postedAt": null,
       "code": "1047",
       "firstSeenAt": "2026-10-30T15:55:24.378Z",
-      "lastSeenAt": "2026-11-06T12:05:24.597Z"
+      "lastSeenAt": "2026-11-07T11:05:40.125Z"
     },
     "primary:dream-city-art:3r:87m2": {
       "id": "primary:dream-city-art:3r:87m2",
@@ -1904,7 +1925,7 @@
       "postedAt": null,
       "code": "1075",
       "firstSeenAt": "2026-10-30T15:55:24.387Z",
-      "lastSeenAt": "2026-11-06T12:05:24.610Z"
+      "lastSeenAt": "2026-11-07T11:05:40.126Z"
     },
     "primary:eco-park-alatau:2r:56m2": {
       "id": "primary:eco-park-alatau:2r:56m2",
@@ -1928,7 +1949,7 @@
       "postedAt": null,
       "code": "1076",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-06T12:05:24.611Z"
+      "lastSeenAt": "2026-11-07T11:05:40.127Z"
     },
     "primary:eco-park-alatau:3r:70m2": {
       "id": "primary:eco-park-alatau:3r:70m2",
@@ -1952,7 +1973,7 @@
       "postedAt": null,
       "code": "1077",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-06T12:05:24.611Z"
+      "lastSeenAt": "2026-11-07T11:05:40.128Z"
     },
     "primary:estet:3r:125m2": {
       "id": "primary:estet:3r:125m2",
@@ -1976,7 +1997,7 @@
       "postedAt": null,
       "code": "1078",
       "firstSeenAt": "2026-10-30T15:55:24.389Z",
-      "lastSeenAt": "2026-11-06T12:05:24.612Z"
+      "lastSeenAt": "2026-11-07T11:05:40.129Z"
     },
     "primary:silver-hills:2r:97m2": {
       "id": "primary:silver-hills:2r:97m2",
@@ -2000,7 +2021,7 @@
       "postedAt": null,
       "code": "1079",
       "firstSeenAt": "2026-10-30T15:55:24.389Z",
-      "lastSeenAt": "2026-11-06T12:05:24.612Z"
+      "lastSeenAt": "2026-11-07T11:05:40.130Z"
     },
     "primary:silver-hills:3r:133m2": {
       "id": "primary:silver-hills:3r:133m2",
@@ -2024,7 +2045,7 @@
       "postedAt": null,
       "code": "1080",
       "firstSeenAt": "2026-10-30T15:55:24.390Z",
-      "lastSeenAt": "2026-11-06T12:05:24.613Z"
+      "lastSeenAt": "2026-11-07T11:05:40.131Z"
     },
     "primary:silver-hills:4r:245m2": {
       "id": "primary:silver-hills:4r:245m2",
@@ -2048,7 +2069,7 @@
       "postedAt": null,
       "code": "1081",
       "firstSeenAt": "2026-10-30T15:55:24.390Z",
-      "lastSeenAt": "2026-11-06T12:05:24.614Z"
+      "lastSeenAt": "2026-11-07T11:05:40.132Z"
     },
     "primary:silver-hills:5r:229m2": {
       "id": "primary:silver-hills:5r:229m2",
@@ -2072,7 +2093,7 @@
       "postedAt": null,
       "code": "1082",
       "firstSeenAt": "2026-10-30T15:55:24.390Z",
-      "lastSeenAt": "2026-11-06T12:05:24.614Z"
+      "lastSeenAt": "2026-11-07T11:05:40.133Z"
     },
     "primary:тау-шатыр:2r:52m2": {
       "id": "primary:тау-шатыр:2r:52m2",
@@ -2096,7 +2117,7 @@
       "postedAt": null,
       "code": "1083",
       "firstSeenAt": "2026-10-30T15:55:24.391Z",
-      "lastSeenAt": "2026-11-06T12:05:24.615Z"
+      "lastSeenAt": "2026-11-07T11:05:40.134Z"
     },
     "primary:тау-шатыр:3r:72m2": {
       "id": "primary:тау-шатыр:3r:72m2",
@@ -2120,7 +2141,7 @@
       "postedAt": null,
       "code": "1084",
       "firstSeenAt": "2026-10-30T15:55:24.391Z",
-      "lastSeenAt": "2026-11-06T12:05:24.616Z"
+      "lastSeenAt": "2026-11-07T11:05:40.135Z"
     },
     "primary:mereke:1r:34m2": {
       "id": "primary:mereke:1r:34m2",
@@ -2144,7 +2165,7 @@
       "postedAt": null,
       "code": "1085",
       "firstSeenAt": "2026-10-30T15:55:24.395Z",
-      "lastSeenAt": "2026-11-06T12:05:24.616Z"
+      "lastSeenAt": "2026-11-07T11:05:40.136Z"
     },
     "primary:mereke:1r:37m2": {
       "id": "primary:mereke:1r:37m2",
@@ -2168,7 +2189,7 @@
       "postedAt": null,
       "code": "1086",
       "firstSeenAt": "2026-10-30T15:55:24.398Z",
-      "lastSeenAt": "2026-11-06T12:05:24.617Z"
+      "lastSeenAt": "2026-11-07T11:05:40.137Z"
     },
     "primary:mereke:3r:84m2": {
       "id": "primary:mereke:3r:84m2",
@@ -2192,7 +2213,7 @@
       "postedAt": null,
       "code": "1087",
       "firstSeenAt": "2026-10-30T15:55:24.399Z",
-      "lastSeenAt": "2026-11-06T12:05:24.617Z"
+      "lastSeenAt": "2026-11-07T11:05:40.138Z"
     },
     "primary:palladium-бизнес:3r:106m2": {
       "id": "primary:palladium-бизнес:3r:106m2",
@@ -2216,7 +2237,7 @@
       "postedAt": null,
       "code": "1088",
       "firstSeenAt": "2026-10-30T15:55:24.399Z",
-      "lastSeenAt": "2026-11-06T12:05:24.618Z"
+      "lastSeenAt": "2026-11-07T11:05:40.139Z"
     },
     "primary:qarasai-park:1r:41m2": {
       "id": "primary:qarasai-park:1r:41m2",
@@ -2240,7 +2261,7 @@
       "postedAt": null,
       "code": "1089",
       "firstSeenAt": "2026-10-30T15:55:24.400Z",
-      "lastSeenAt": "2026-11-06T12:05:24.619Z"
+      "lastSeenAt": "2026-11-07T11:05:40.140Z"
     },
     "primary:qarasai-park:2r:46m2": {
       "id": "primary:qarasai-park:2r:46m2",
@@ -2264,7 +2285,7 @@
       "postedAt": null,
       "code": "1090",
       "firstSeenAt": "2026-10-30T15:55:24.401Z",
-      "lastSeenAt": "2026-11-06T12:05:24.619Z"
+      "lastSeenAt": "2026-11-07T11:05:40.141Z"
     },
     "primary:qarasai-park:3r:61m2": {
       "id": "primary:qarasai-park:3r:61m2",
@@ -2288,7 +2309,7 @@
       "postedAt": null,
       "code": "1091",
       "firstSeenAt": "2026-10-30T15:55:24.401Z",
-      "lastSeenAt": "2026-11-06T12:05:24.620Z"
+      "lastSeenAt": "2026-11-07T11:05:40.142Z"
     },
     "primary:tumar:1r:39m2": {
       "id": "primary:tumar:1r:39m2",
@@ -2312,7 +2333,7 @@
       "postedAt": null,
       "code": "1092",
       "firstSeenAt": "2026-10-30T15:55:24.402Z",
-      "lastSeenAt": "2026-11-06T12:05:24.621Z"
+      "lastSeenAt": "2026-11-07T11:05:40.142Z"
     },
     "primary:tumar:2r:46m2": {
       "id": "primary:tumar:2r:46m2",
@@ -2336,7 +2357,7 @@
       "postedAt": null,
       "code": "1093",
       "firstSeenAt": "2026-10-30T15:55:24.402Z",
-      "lastSeenAt": "2026-11-06T12:05:24.621Z"
+      "lastSeenAt": "2026-11-07T11:05:40.143Z"
     },
     "primary:tumar:3r:97m2": {
       "id": "primary:tumar:3r:97m2",
@@ -2360,7 +2381,7 @@
       "postedAt": null,
       "code": "1094",
       "firstSeenAt": "2026-10-30T15:55:24.402Z",
-      "lastSeenAt": "2026-11-06T12:05:24.622Z"
+      "lastSeenAt": "2026-11-07T11:05:40.161Z"
     },
     "primary:auezov-city:2r:66m2": {
       "id": "primary:auezov-city:2r:66m2",
@@ -2384,7 +2405,7 @@
       "postedAt": null,
       "code": "1095",
       "firstSeenAt": "2026-10-30T15:55:24.403Z",
-      "lastSeenAt": "2026-11-06T12:05:24.623Z"
+      "lastSeenAt": "2026-11-07T11:05:40.162Z"
     },
     "primary:arena-sunset:1r:40m2": {
       "id": "primary:arena-sunset:1r:40m2",
@@ -2408,7 +2429,7 @@
       "postedAt": null,
       "code": "1096",
       "firstSeenAt": "2026-10-30T15:55:24.403Z",
-      "lastSeenAt": "2026-11-06T12:05:24.623Z"
+      "lastSeenAt": "2026-11-07T11:05:40.163Z"
     },
     "primary:arena-sunset:2r:52m2": {
       "id": "primary:arena-sunset:2r:52m2",
@@ -2432,7 +2453,7 @@
       "postedAt": null,
       "code": "1097",
       "firstSeenAt": "2026-10-30T15:55:24.404Z",
-      "lastSeenAt": "2026-11-06T12:05:24.629Z"
+      "lastSeenAt": "2026-11-07T11:05:40.164Z"
     },
     "primary:arena-sunset:3r:71m2": {
       "id": "primary:arena-sunset:3r:71m2",
@@ -2456,7 +2477,7 @@
       "postedAt": null,
       "code": "1098",
       "firstSeenAt": "2026-10-30T15:55:24.404Z",
-      "lastSeenAt": "2026-11-06T12:05:24.630Z"
+      "lastSeenAt": "2026-11-07T11:05:40.165Z"
     },
     "primary:rams-city:3r:76m2": {
       "id": "primary:rams-city:3r:76m2",
@@ -2480,7 +2501,7 @@
       "postedAt": null,
       "code": "1099",
       "firstSeenAt": "2026-10-30T15:55:24.405Z",
-      "lastSeenAt": "2026-11-06T12:05:24.631Z"
+      "lastSeenAt": "2026-11-07T11:05:40.167Z"
     },
     "primary:rams-garden:2r:63m2": {
       "id": "primary:rams-garden:2r:63m2",
@@ -2504,7 +2525,7 @@
       "postedAt": null,
       "code": "1100",
       "firstSeenAt": "2026-10-30T15:55:24.405Z",
-      "lastSeenAt": "2026-11-06T12:05:24.632Z"
+      "lastSeenAt": "2026-11-07T11:05:40.168Z"
     },
     "primary:rams-garden:3r:82m2": {
       "id": "primary:rams-garden:3r:82m2",
@@ -2528,7 +2549,7 @@
       "postedAt": null,
       "code": "1101",
       "firstSeenAt": "2026-10-30T15:55:24.406Z",
-      "lastSeenAt": "2026-11-06T12:05:24.633Z"
+      "lastSeenAt": "2026-11-07T11:05:40.284Z"
     },
     "primary:rams-garden:4r:103m2": {
       "id": "primary:rams-garden:4r:103m2",
@@ -2552,7 +2573,7 @@
       "postedAt": null,
       "code": "1102",
       "firstSeenAt": "2026-10-30T15:55:24.406Z",
-      "lastSeenAt": "2026-11-06T12:05:24.633Z"
+      "lastSeenAt": "2026-11-07T11:05:40.285Z"
     },
     "primary:elaman:1r:21m2": {
       "id": "primary:elaman:1r:21m2",
@@ -2576,7 +2597,7 @@
       "postedAt": null,
       "code": "1103",
       "firstSeenAt": "2026-10-30T15:55:24.407Z",
-      "lastSeenAt": "2026-11-06T12:05:24.634Z"
+      "lastSeenAt": "2026-11-07T11:05:40.286Z"
     },
     "primary:elaman:2r:50m2": {
       "id": "primary:elaman:2r:50m2",
@@ -2600,7 +2621,7 @@
       "postedAt": null,
       "code": "1104",
       "firstSeenAt": "2026-10-30T15:55:24.407Z",
-      "lastSeenAt": "2026-11-06T12:05:24.634Z"
+      "lastSeenAt": "2026-11-07T11:05:40.287Z"
     },
     "primary:hayat-meliora:2r:63m2": {
       "id": "primary:hayat-meliora:2r:63m2",
@@ -2624,7 +2645,7 @@
       "postedAt": null,
       "code": "1105",
       "firstSeenAt": "2026-10-30T15:55:24.409Z",
-      "lastSeenAt": "2026-11-06T12:05:24.635Z"
+      "lastSeenAt": "2026-11-07T11:05:40.288Z"
     },
     "primary:hayat-meliora:3r:108m2": {
       "id": "primary:hayat-meliora:3r:108m2",
@@ -2648,7 +2669,7 @@
       "postedAt": null,
       "code": "1106",
       "firstSeenAt": "2026-10-30T15:55:24.409Z",
-      "lastSeenAt": "2026-11-06T12:05:24.636Z"
+      "lastSeenAt": "2026-11-07T11:05:40.288Z"
     },
     "primary:hayat-meliora:4r:149m2": {
       "id": "primary:hayat-meliora:4r:149m2",
@@ -2672,7 +2693,7 @@
       "postedAt": null,
       "code": "1107",
       "firstSeenAt": "2026-10-30T15:55:24.410Z",
-      "lastSeenAt": "2026-11-06T12:05:24.636Z"
+      "lastSeenAt": "2026-11-07T11:05:40.289Z"
     },
     "primary:hayat-meliora:5r:197m2": {
       "id": "primary:hayat-meliora:5r:197m2",
@@ -2696,7 +2717,7 @@
       "postedAt": null,
       "code": "1108",
       "firstSeenAt": "2026-10-30T15:55:24.410Z",
-      "lastSeenAt": "2026-11-06T12:05:24.637Z"
+      "lastSeenAt": "2026-11-07T11:05:40.290Z"
     },
     "primary:hayat-meliora:6r:218m2": {
       "id": "primary:hayat-meliora:6r:218m2",
@@ -2720,7 +2741,7 @@
       "postedAt": null,
       "code": "1109",
       "firstSeenAt": "2026-10-30T15:55:24.411Z",
-      "lastSeenAt": "2026-11-06T12:05:24.638Z"
+      "lastSeenAt": "2026-11-07T11:05:40.291Z"
     },
     "primary:hayat-meliora:7r:211m2": {
       "id": "primary:hayat-meliora:7r:211m2",
@@ -2744,7 +2765,7 @@
       "postedAt": null,
       "code": "1110",
       "firstSeenAt": "2026-10-30T15:55:24.412Z",
-      "lastSeenAt": "2026-11-06T12:05:24.638Z"
+      "lastSeenAt": "2026-11-07T11:05:40.292Z"
     },
     "primary:orion-3:4r:162m2": {
       "id": "primary:orion-3:4r:162m2",
@@ -2768,7 +2789,7 @@
       "postedAt": null,
       "code": "1111",
       "firstSeenAt": "2026-10-30T15:55:24.412Z",
-      "lastSeenAt": "2026-11-06T12:05:24.639Z"
+      "lastSeenAt": "2026-11-07T11:05:40.293Z"
     },
     "primary:gate-city:1r:40m2": {
       "id": "primary:gate-city:1r:40m2",
@@ -2792,7 +2813,7 @@
       "postedAt": null,
       "code": "1112",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-06T12:05:24.640Z"
+      "lastSeenAt": "2026-11-07T11:05:40.294Z"
     },
     "primary:gate-city:2r:63m2": {
       "id": "primary:gate-city:2r:63m2",
@@ -2816,7 +2837,7 @@
       "postedAt": null,
       "code": "1113",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-06T12:05:24.640Z"
+      "lastSeenAt": "2026-11-07T11:05:40.295Z"
     },
     "primary:gate-city:3r:85m2": {
       "id": "primary:gate-city:3r:85m2",
@@ -2840,7 +2861,7 @@
       "postedAt": null,
       "code": "1114",
       "firstSeenAt": "2026-10-30T15:55:24.414Z",
-      "lastSeenAt": "2026-11-06T12:05:24.641Z"
+      "lastSeenAt": "2026-11-07T11:05:40.296Z"
     },
     "primary:metropole:3r:119m2": {
       "id": "primary:metropole:3r:119m2",
@@ -2864,7 +2885,7 @@
       "postedAt": null,
       "code": "1115",
       "firstSeenAt": "2026-10-30T15:55:24.414Z",
-      "lastSeenAt": "2026-11-06T12:05:24.642Z"
+      "lastSeenAt": "2026-11-07T11:05:40.297Z"
     },
     "primary:metropole:4r:162m2": {
       "id": "primary:metropole:4r:162m2",
@@ -2888,7 +2909,7 @@
       "postedAt": null,
       "code": "1116",
       "firstSeenAt": "2026-10-30T15:55:24.415Z",
-      "lastSeenAt": "2026-11-06T12:05:24.642Z"
+      "lastSeenAt": "2026-11-07T11:05:40.298Z"
     },
     "primary:esentai-city:3r:121m2": {
       "id": "primary:esentai-city:3r:121m2",
@@ -2912,7 +2933,7 @@
       "postedAt": null,
       "code": "1117",
       "firstSeenAt": "2026-10-30T15:55:24.415Z",
-      "lastSeenAt": "2026-11-06T12:05:24.643Z"
+      "lastSeenAt": "2026-11-07T11:05:40.299Z"
     },
     "primary:esentai-city:4r:148m2": {
       "id": "primary:esentai-city:4r:148m2",
@@ -2936,7 +2957,7 @@
       "postedAt": null,
       "code": "1118",
       "firstSeenAt": "2026-10-30T15:55:24.416Z",
-      "lastSeenAt": "2026-11-06T12:05:24.644Z"
+      "lastSeenAt": "2026-11-07T11:05:40.299Z"
     },
     "primary:esentai-city:5r:211m2": {
       "id": "primary:esentai-city:5r:211m2",
@@ -2960,7 +2981,7 @@
       "postedAt": null,
       "code": "1119",
       "firstSeenAt": "2026-10-30T15:55:24.416Z",
-      "lastSeenAt": "2026-11-06T12:05:24.644Z"
+      "lastSeenAt": "2026-11-07T11:05:40.300Z"
     },
     "primary:exclusive-duet:2r:57m2": {
       "id": "primary:exclusive-duet:2r:57m2",
@@ -2984,7 +3005,7 @@
       "postedAt": null,
       "code": "1120",
       "firstSeenAt": "2026-10-30T15:55:24.417Z",
-      "lastSeenAt": "2026-11-06T12:05:24.645Z"
+      "lastSeenAt": "2026-11-07T11:05:40.301Z"
     },
     "primary:exclusive-duet:3r:105m2": {
       "id": "primary:exclusive-duet:3r:105m2",
@@ -3008,7 +3029,7 @@
       "postedAt": null,
       "code": "1121",
       "firstSeenAt": "2026-10-30T15:55:24.417Z",
-      "lastSeenAt": "2026-11-06T12:05:24.645Z"
+      "lastSeenAt": "2026-11-07T11:05:40.303Z"
     },
     "primary:exclusive-duet:4r:108m2": {
       "id": "primary:exclusive-duet:4r:108m2",
@@ -3032,7 +3053,7 @@
       "postedAt": null,
       "code": "1122",
       "firstSeenAt": "2026-10-30T15:55:24.418Z",
-      "lastSeenAt": "2026-11-06T12:05:24.646Z"
+      "lastSeenAt": "2026-11-07T11:05:40.303Z"
     },
     "primary:altyn-city:1r:42m2": {
       "id": "primary:altyn-city:1r:42m2",
@@ -3056,7 +3077,7 @@
       "postedAt": null,
       "code": "1123",
       "firstSeenAt": "2026-10-30T15:55:24.419Z",
-      "lastSeenAt": "2026-11-06T12:05:24.647Z"
+      "lastSeenAt": "2026-11-07T11:05:40.304Z"
     },
     "primary:altyn-city:2r:64m2": {
       "id": "primary:altyn-city:2r:64m2",
@@ -3080,7 +3101,7 @@
       "postedAt": null,
       "code": "1124",
       "firstSeenAt": "2026-10-30T15:55:24.419Z",
-      "lastSeenAt": "2026-11-06T12:05:24.647Z"
+      "lastSeenAt": "2026-11-07T11:05:40.305Z"
     },
     "primary:altyn-city:3r:82m2": {
       "id": "primary:altyn-city:3r:82m2",
@@ -3104,7 +3125,7 @@
       "postedAt": null,
       "code": "1125",
       "firstSeenAt": "2026-10-30T15:55:24.420Z",
-      "lastSeenAt": "2026-11-06T12:05:24.648Z"
+      "lastSeenAt": "2026-11-07T11:05:40.306Z"
     },
     "primary:горное-солнце:2r:76m2": {
       "id": "primary:горное-солнце:2r:76m2",
@@ -3128,7 +3149,7 @@
       "postedAt": null,
       "code": "1126",
       "firstSeenAt": "2026-10-30T15:55:24.420Z",
-      "lastSeenAt": "2026-11-06T12:05:24.649Z"
+      "lastSeenAt": "2026-11-07T11:05:40.307Z"
     },
     "primary:горное-солнце:3r:93m2": {
       "id": "primary:горное-солнце:3r:93m2",
@@ -3152,7 +3173,7 @@
       "postedAt": null,
       "code": "1127",
       "firstSeenAt": "2026-10-30T15:55:24.421Z",
-      "lastSeenAt": "2026-11-06T12:05:24.649Z"
+      "lastSeenAt": "2026-11-07T11:05:40.308Z"
     },
     "primary:seven-hills:2r:50m2": {
       "id": "primary:seven-hills:2r:50m2",
@@ -3176,7 +3197,7 @@
       "postedAt": null,
       "code": "1128",
       "firstSeenAt": "2026-10-30T15:55:24.421Z",
-      "lastSeenAt": "2026-11-06T12:05:24.650Z"
+      "lastSeenAt": "2026-11-07T11:05:40.309Z"
     },
     "primary:seven-hills:3r:109m2": {
       "id": "primary:seven-hills:3r:109m2",
@@ -3200,7 +3221,7 @@
       "postedAt": null,
       "code": "1129",
       "firstSeenAt": "2026-10-30T15:55:24.422Z",
-      "lastSeenAt": "2026-11-06T12:05:24.651Z"
+      "lastSeenAt": "2026-11-07T11:05:40.310Z"
     },
     "primary:seven-hills:4r:135m2": {
       "id": "primary:seven-hills:4r:135m2",
@@ -3224,7 +3245,7 @@
       "postedAt": null,
       "code": "1130",
       "firstSeenAt": "2026-10-30T15:55:24.423Z",
-      "lastSeenAt": "2026-11-06T12:05:24.651Z"
+      "lastSeenAt": "2026-11-07T11:05:40.310Z"
     },
     "primary:parasat-2:3r:71m2": {
       "id": "primary:parasat-2:3r:71m2",
@@ -3248,7 +3269,7 @@
       "postedAt": null,
       "code": "1131",
       "firstSeenAt": "2026-10-30T15:55:24.423Z",
-      "lastSeenAt": "2026-11-06T12:05:24.652Z"
+      "lastSeenAt": "2026-11-07T11:05:40.311Z"
     },
     "primary:munar-tau:2r:68m2": {
       "id": "primary:munar-tau:2r:68m2",
@@ -3272,7 +3293,7 @@
       "postedAt": null,
       "code": "1132",
       "firstSeenAt": "2026-10-30T15:55:24.424Z",
-      "lastSeenAt": "2026-11-06T12:05:24.653Z"
+      "lastSeenAt": "2026-11-07T11:05:40.313Z"
     },
     "primary:клубный-дом-eco-park:2r:65m2": {
       "id": "primary:клубный-дом-eco-park:2r:65m2",
@@ -3296,7 +3317,7 @@
       "postedAt": null,
       "code": "1133",
       "firstSeenAt": "2026-10-30T15:55:24.424Z",
-      "lastSeenAt": "2026-11-06T12:05:24.653Z"
+      "lastSeenAt": "2026-11-07T11:05:40.314Z"
     },
     "primary:клубный-дом-eco-park:3r:99m2": {
       "id": "primary:клубный-дом-eco-park:3r:99m2",
@@ -3320,7 +3341,7 @@
       "postedAt": null,
       "code": "1134",
       "firstSeenAt": "2026-10-30T15:55:24.425Z",
-      "lastSeenAt": "2026-11-06T12:05:24.654Z"
+      "lastSeenAt": "2026-11-07T11:05:40.315Z"
     },
     "primary:клубный-дом-eco-park:4r:134m2": {
       "id": "primary:клубный-дом-eco-park:4r:134m2",
@@ -3344,7 +3365,7 @@
       "postedAt": null,
       "code": "1135",
       "firstSeenAt": "2026-10-30T15:55:24.426Z",
-      "lastSeenAt": "2026-11-06T12:05:24.654Z"
+      "lastSeenAt": "2026-11-07T11:05:40.315Z"
     },
     "primary:аккент:xr:30m2": {
       "id": "primary:аккент:xr:30m2",
@@ -3368,7 +3389,7 @@
       "postedAt": null,
       "code": "1136",
       "firstSeenAt": "2026-10-30T15:55:24.426Z",
-      "lastSeenAt": "2026-11-06T12:05:24.655Z"
+      "lastSeenAt": "2026-11-07T11:05:40.316Z"
     },
     "primary:аккент:1r:41m2": {
       "id": "primary:аккент:1r:41m2",
@@ -3392,7 +3413,7 @@
       "postedAt": null,
       "code": "1137",
       "firstSeenAt": "2026-10-30T15:55:24.427Z",
-      "lastSeenAt": "2026-11-06T12:05:24.656Z"
+      "lastSeenAt": "2026-11-07T11:05:40.317Z"
     },
     "primary:аккент:2r:47m2": {
       "id": "primary:аккент:2r:47m2",
@@ -3416,7 +3437,7 @@
       "postedAt": null,
       "code": "1138",
       "firstSeenAt": "2026-10-30T15:55:24.427Z",
-      "lastSeenAt": "2026-11-06T12:05:24.656Z"
+      "lastSeenAt": "2026-11-07T11:05:40.318Z"
     },
     "primary:аккент:3r:77m2": {
       "id": "primary:аккент:3r:77m2",
@@ -3440,7 +3461,7 @@
       "postedAt": null,
       "code": "1139",
       "firstSeenAt": "2026-10-30T15:55:24.428Z",
-      "lastSeenAt": "2026-11-06T12:05:24.657Z"
+      "lastSeenAt": "2026-11-07T11:05:40.319Z"
     },
     "primary:esentai-city-villas:xr:620m2": {
       "id": "primary:esentai-city-villas:xr:620m2",
@@ -3464,7 +3485,7 @@
       "postedAt": null,
       "code": "1140",
       "firstSeenAt": "2026-10-30T15:55:24.429Z",
-      "lastSeenAt": "2026-11-06T12:05:24.658Z"
+      "lastSeenAt": "2026-11-07T11:05:40.320Z"
     },
     "primary:belgravia:2r:71m2": {
       "id": "primary:belgravia:2r:71m2",
@@ -3488,7 +3509,7 @@
       "postedAt": null,
       "code": "1141",
       "firstSeenAt": "2026-10-30T15:55:24.429Z",
-      "lastSeenAt": "2026-11-06T12:05:24.658Z"
+      "lastSeenAt": "2026-11-07T11:05:40.321Z"
     },
     "primary:belgravia:3r:122m2": {
       "id": "primary:belgravia:3r:122m2",
@@ -3512,7 +3533,7 @@
       "postedAt": null,
       "code": "1142",
       "firstSeenAt": "2026-10-30T15:55:24.430Z",
-      "lastSeenAt": "2026-11-06T12:05:24.659Z"
+      "lastSeenAt": "2026-11-07T11:05:40.322Z"
     },
     "primary:belgravia:4r:137m2": {
       "id": "primary:belgravia:4r:137m2",
@@ -3536,7 +3557,7 @@
       "postedAt": null,
       "code": "1143",
       "firstSeenAt": "2026-10-30T15:55:24.430Z",
-      "lastSeenAt": "2026-11-06T12:05:24.660Z"
+      "lastSeenAt": "2026-11-07T11:05:40.323Z"
     },
     "primary:клубная-резиденция-grande-vie:2r:39m2": {
       "id": "primary:клубная-резиденция-grande-vie:2r:39m2",
@@ -3560,7 +3581,7 @@
       "postedAt": null,
       "code": "1144",
       "firstSeenAt": "2026-10-30T15:55:24.431Z",
-      "lastSeenAt": "2026-11-06T12:05:24.660Z"
+      "lastSeenAt": "2026-11-07T11:05:40.324Z"
     },
     "primary:клубная-резиденция-grande-vie:3r:83m2": {
       "id": "primary:клубная-резиденция-grande-vie:3r:83m2",
@@ -3584,7 +3605,7 @@
       "postedAt": null,
       "code": "1145",
       "firstSeenAt": "2026-10-30T15:55:24.432Z",
-      "lastSeenAt": "2026-11-06T12:05:24.661Z"
+      "lastSeenAt": "2026-11-07T11:05:40.325Z"
     },
     "primary:клубная-резиденция-grande-vie:4r:101m2": {
       "id": "primary:клубная-резиденция-grande-vie:4r:101m2",
@@ -3608,7 +3629,7 @@
       "postedAt": null,
       "code": "1146",
       "firstSeenAt": "2026-10-30T15:55:24.433Z",
-      "lastSeenAt": "2026-11-06T12:05:24.662Z"
+      "lastSeenAt": "2026-11-07T11:05:40.326Z"
     },
     "primary:клубная-резиденция-grande-vie:5r:167m2": {
       "id": "primary:клубная-резиденция-grande-vie:5r:167m2",
@@ -3632,7 +3653,7 @@
       "postedAt": null,
       "code": "1147",
       "firstSeenAt": "2026-10-30T15:55:24.433Z",
-      "lastSeenAt": "2026-11-06T12:05:24.662Z"
+      "lastSeenAt": "2026-11-07T11:05:40.327Z"
     },
     "primary:бигвилль-arena-city-sport:2r:46m2": {
       "id": "primary:бигвилль-arena-city-sport:2r:46m2",
@@ -3680,7 +3701,7 @@
       "postedAt": null,
       "code": "1148",
       "firstSeenAt": "2026-11-01T11:17:38.123Z",
-      "lastSeenAt": "2026-11-06T12:05:24.569Z"
+      "lastSeenAt": "2026-11-07T11:05:40.098Z"
     },
     "primary:autograph:3r:96m2": {
       "id": "primary:autograph:3r:96m2",
@@ -3704,7 +3725,7 @@
       "postedAt": null,
       "code": "1149",
       "firstSeenAt": "2026-11-01T11:17:38.125Z",
-      "lastSeenAt": "2026-11-06T12:05:24.570Z"
+      "lastSeenAt": "2026-11-07T11:05:40.098Z"
     },
     "primary:autograph:4r:125m2": {
       "id": "primary:autograph:4r:125m2",
@@ -3728,7 +3749,7 @@
       "postedAt": null,
       "code": "1150",
       "firstSeenAt": "2026-11-01T11:17:38.126Z",
-      "lastSeenAt": "2026-11-06T12:05:24.571Z"
+      "lastSeenAt": "2026-11-07T11:05:40.099Z"
     },
     "primary:vertex-garden:2r:47m2": {
       "id": "primary:vertex-garden:2r:47m2",
@@ -3824,7 +3845,7 @@
       "postedAt": null,
       "code": "1154",
       "firstSeenAt": "2026-11-03T11:53:39.439Z",
-      "lastSeenAt": "2026-11-06T12:05:24.567Z",
+      "lastSeenAt": "2026-11-07T11:05:40.055Z",
       "priceHistory": [
         {
           "oldPrice": 74290000,
@@ -3951,7 +3972,7 @@
       "postedAt": null,
       "code": "1159",
       "firstSeenAt": "2026-11-04T12:06:01.409Z",
-      "lastSeenAt": "2026-11-06T12:05:24.562Z"
+      "lastSeenAt": "2026-11-07T11:05:40.049Z"
     },
     "primary:buta-meken:2r:47m2": {
       "id": "primary:buta-meken:2r:47m2",
@@ -3975,7 +3996,7 @@
       "postedAt": null,
       "code": "1160",
       "firstSeenAt": "2026-11-04T12:06:01.412Z",
-      "lastSeenAt": "2026-11-06T12:05:24.563Z"
+      "lastSeenAt": "2026-11-07T11:05:40.050Z"
     },
     "primary:buta-meken:3r:72m2": {
       "id": "primary:buta-meken:3r:72m2",
@@ -3999,7 +4020,7 @@
       "postedAt": null,
       "code": "1161",
       "firstSeenAt": "2026-11-04T12:06:01.413Z",
-      "lastSeenAt": "2026-11-06T12:05:24.564Z"
+      "lastSeenAt": "2026-11-07T11:05:40.052Z"
     },
     "primary:apple-residence:3r:108m2": {
       "id": "primary:apple-residence:3r:108m2",
@@ -4023,7 +4044,7 @@
       "postedAt": null,
       "code": "1162",
       "firstSeenAt": "2026-11-04T12:06:01.419Z",
-      "lastSeenAt": "2026-11-06T12:05:24.567Z"
+      "lastSeenAt": "2026-11-07T11:05:40.056Z"
     },
     "primary:biography:3r:105m2": {
       "id": "primary:biography:3r:105m2",
@@ -4071,7 +4092,391 @@
       "postedAt": null,
       "code": "1035",
       "firstSeenAt": "2026-10-30T15:55:24.374Z",
-      "lastSeenAt": "2026-11-06T12:05:24.589Z"
+      "lastSeenAt": "2026-11-07T11:05:40.115Z"
+    },
+    "primary:jan-dostar:1r:36m2": {
+      "id": "primary:jan-dostar:1r:36m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Jan Dostar",
+      "url": "https://krisha.kz/complex/show/almaty/jandostar/",
+      "price": 19000000,
+      "pricePerM2": 535211,
+      "rooms": 1,
+      "areaM2": 35.5,
+      "floor": null,
+      "district": "Турксибский",
+      "address": "Алматы, Турксибский р-н, ул. Петрозаводская, 7/1",
+      "complexName": "ЖК Jan Dostar",
+      "developer": "BAZIS–А",
+      "handoverDate": "III квартал 2027 г.",
+      "housingClass": "комфорт",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1163",
+      "firstSeenAt": "2026-11-07T11:05:40.060Z",
+      "lastSeenAt": "2026-11-07T11:05:40.060Z"
+    },
+    "primary:jan-dostar:2r:45m2": {
+      "id": "primary:jan-dostar:2r:45m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Jan Dostar",
+      "url": "https://krisha.kz/complex/show/almaty/jandostar/",
+      "price": 25500000,
+      "pricePerM2": 567929,
+      "rooms": 2,
+      "areaM2": 44.9,
+      "floor": null,
+      "district": "Турксибский",
+      "address": "Алматы, Турксибский р-н, ул. Петрозаводская, 7/1",
+      "complexName": "ЖК Jan Dostar",
+      "developer": "BAZIS–А",
+      "handoverDate": "III квартал 2027 г.",
+      "housingClass": "комфорт",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1164",
+      "firstSeenAt": "2026-11-07T11:05:40.069Z",
+      "lastSeenAt": "2026-11-07T11:05:40.069Z"
+    },
+    "primary:satpaev:1r:36m2": {
+      "id": "primary:satpaev:1r:36m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Satpaev",
+      "url": "https://krisha.kz/complex/show/almaty/satpaev/",
+      "price": 30600000,
+      "pricePerM2": 857143,
+      "rooms": 1,
+      "areaM2": 35.7,
+      "floor": null,
+      "district": "Бостандыкский",
+      "address": "Алматы, Бостандыкский р-н, ул. Каныша Сатпаева, 90а/1",
+      "complexName": "ЖК Satpaev",
+      "developer": "BAZIS–А",
+      "handoverDate": "Первая очередь - II квартал 2026 г.Вторая очередь - III квартал 2028 г.",
+      "housingClass": "бизнес",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1165",
+      "firstSeenAt": "2026-11-07T11:05:40.073Z",
+      "lastSeenAt": "2026-11-07T11:05:40.073Z"
+    },
+    "primary:satpaev:2r:48m2": {
+      "id": "primary:satpaev:2r:48m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Satpaev",
+      "url": "https://krisha.kz/complex/show/almaty/satpaev/",
+      "price": 67600000,
+      "pricePerM2": 1399586,
+      "rooms": 2,
+      "areaM2": 48.3,
+      "floor": null,
+      "district": "Бостандыкский",
+      "address": "Алматы, Бостандыкский р-н, ул. Каныша Сатпаева, 90а/1",
+      "complexName": "ЖК Satpaev",
+      "developer": "BAZIS–А",
+      "handoverDate": "Первая очередь - II квартал 2026 г.Вторая очередь - III квартал 2028 г.",
+      "housingClass": "бизнес",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1166",
+      "firstSeenAt": "2026-11-07T11:05:40.074Z",
+      "lastSeenAt": "2026-11-07T11:05:40.074Z"
+    },
+    "primary:satpaev:3r:86m2": {
+      "id": "primary:satpaev:3r:86m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Satpaev",
+      "url": "https://krisha.kz/complex/show/almaty/satpaev/",
+      "price": 68900000,
+      "pricePerM2": 803967,
+      "rooms": 3,
+      "areaM2": 85.7,
+      "floor": null,
+      "district": "Бостандыкский",
+      "address": "Алматы, Бостандыкский р-н, ул. Каныша Сатпаева, 90а/1",
+      "complexName": "ЖК Satpaev",
+      "developer": "BAZIS–А",
+      "handoverDate": "Первая очередь - II квартал 2026 г.Вторая очередь - III квартал 2028 г.",
+      "housingClass": "бизнес",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1167",
+      "firstSeenAt": "2026-11-07T11:05:40.075Z",
+      "lastSeenAt": "2026-11-07T11:05:40.075Z"
+    },
+    "primary:riviera-plus:1r:40m2": {
+      "id": "primary:riviera-plus:1r:40m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Riviera PLUS",
+      "url": "https://krisha.kz/complex/show/almaty/rivieraplus/",
+      "price": 39300000,
+      "pricePerM2": 989924,
+      "rooms": 1,
+      "areaM2": 39.7,
+      "floor": null,
+      "district": "Бостандыкский",
+      "address": "Алматы, Бостандыкский р-н, ул. Каныша Сатпаева, 90/55Б",
+      "complexName": "ЖК Riviera PLUS",
+      "developer": "BAZIS–А",
+      "handoverDate": "I квартал 2027 г.",
+      "housingClass": "комфорт",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1168",
+      "firstSeenAt": "2026-11-07T11:05:40.076Z",
+      "lastSeenAt": "2026-11-07T11:05:40.076Z"
+    },
+    "primary:riviera-plus:2r:50m2": {
+      "id": "primary:riviera-plus:2r:50m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Riviera PLUS",
+      "url": "https://krisha.kz/complex/show/almaty/rivieraplus/",
+      "price": 55200000,
+      "pricePerM2": 1115152,
+      "rooms": 2,
+      "areaM2": 49.5,
+      "floor": null,
+      "district": "Бостандыкский",
+      "address": "Алматы, Бостандыкский р-н, ул. Каныша Сатпаева, 90/55Б",
+      "complexName": "ЖК Riviera PLUS",
+      "developer": "BAZIS–А",
+      "handoverDate": "I квартал 2027 г.",
+      "housingClass": "комфорт",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1169",
+      "firstSeenAt": "2026-11-07T11:05:40.077Z",
+      "lastSeenAt": "2026-11-07T11:05:40.077Z"
+    },
+    "primary:riviera-plus:3r:88m2": {
+      "id": "primary:riviera-plus:3r:88m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Riviera PLUS",
+      "url": "https://krisha.kz/complex/show/almaty/rivieraplus/",
+      "price": 80800000,
+      "pricePerM2": 914027,
+      "rooms": 3,
+      "areaM2": 88.4,
+      "floor": null,
+      "district": "Бостандыкский",
+      "address": "Алматы, Бостандыкский р-н, ул. Каныша Сатпаева, 90/55Б",
+      "complexName": "ЖК Riviera PLUS",
+      "developer": "BAZIS–А",
+      "handoverDate": "I квартал 2027 г.",
+      "housingClass": "комфорт",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1170",
+      "firstSeenAt": "2026-11-07T11:05:40.078Z",
+      "lastSeenAt": "2026-11-07T11:05:40.078Z"
+    },
+    "primary:riviera-plus:4r:124m2": {
+      "id": "primary:riviera-plus:4r:124m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Riviera PLUS",
+      "url": "https://krisha.kz/complex/show/almaty/rivieraplus/",
+      "price": 108856000,
+      "pricePerM2": 880000,
+      "rooms": 4,
+      "areaM2": 123.7,
+      "floor": null,
+      "district": "Бостандыкский",
+      "address": "Алматы, Бостандыкский р-н, ул. Каныша Сатпаева, 90/55Б",
+      "complexName": "ЖК Riviera PLUS",
+      "developer": "BAZIS–А",
+      "handoverDate": "I квартал 2027 г.",
+      "housingClass": "комфорт",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1171",
+      "firstSeenAt": "2026-11-07T11:05:40.079Z",
+      "lastSeenAt": "2026-11-07T11:05:40.079Z"
+    },
+    "primary:auezov-city-pro:1r:29m2": {
+      "id": "primary:auezov-city-pro:1r:29m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Auezov City Pro",
+      "url": "https://krisha.kz/complex/show/almaty/auezovcitypro/",
+      "price": 31500000,
+      "pricePerM2": 1071429,
+      "rooms": 1,
+      "areaM2": 29.4,
+      "floor": null,
+      "district": "Алмалинский",
+      "address": "Алматы, Алмалинский р-н, ул. Райымбека, 210/27",
+      "complexName": "ЖК Auezov City Pro",
+      "developer": "BAZIS–А",
+      "handoverDate": "III квартал 2027 г.",
+      "housingClass": "комфорт",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1172",
+      "firstSeenAt": "2026-11-07T11:05:40.082Z",
+      "lastSeenAt": "2026-11-07T11:05:40.082Z"
+    },
+    "primary:auezov-city-pro:2r:47m2": {
+      "id": "primary:auezov-city-pro:2r:47m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Auezov City Pro",
+      "url": "https://krisha.kz/complex/show/almaty/auezovcitypro/",
+      "price": 37300000,
+      "pricePerM2": 798715,
+      "rooms": 2,
+      "areaM2": 46.7,
+      "floor": null,
+      "district": "Алмалинский",
+      "address": "Алматы, Алмалинский р-н, ул. Райымбека, 210/27",
+      "complexName": "ЖК Auezov City Pro",
+      "developer": "BAZIS–А",
+      "handoverDate": "III квартал 2027 г.",
+      "housingClass": "комфорт",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1173",
+      "firstSeenAt": "2026-11-07T11:05:40.083Z",
+      "lastSeenAt": "2026-11-07T11:05:40.083Z"
+    },
+    "primary:auezov-city-pro:3r:72m2": {
+      "id": "primary:auezov-city-pro:3r:72m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Auezov City Pro",
+      "url": "https://krisha.kz/complex/show/almaty/auezovcitypro/",
+      "price": 53600000,
+      "pricePerM2": 749650,
+      "rooms": 3,
+      "areaM2": 71.5,
+      "floor": null,
+      "district": "Алмалинский",
+      "address": "Алматы, Алмалинский р-н, ул. Райымбека, 210/27",
+      "complexName": "ЖК Auezov City Pro",
+      "developer": "BAZIS–А",
+      "handoverDate": "III квартал 2027 г.",
+      "housingClass": "комфорт",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1174",
+      "firstSeenAt": "2026-11-07T11:05:40.084Z",
+      "lastSeenAt": "2026-11-07T11:05:40.084Z"
+    },
+    "primary:клубный-дом-parkville:4r:133m2": {
+      "id": "primary:клубный-дом-parkville:4r:133m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "Клубный дом PARKVILLE",
+      "url": "https://krisha.kz/complex/show/almaty/parkville/",
+      "price": 176600000,
+      "pricePerM2": 1332830,
+      "rooms": 4,
+      "areaM2": 132.5,
+      "floor": null,
+      "district": "Наурызбайский",
+      "address": "Алматы, Наурызбайский р-н, ул. Кенесары хана, 43/7",
+      "complexName": "Клубный дом PARKVILLE",
+      "developer": "BAZIS–А",
+      "handoverDate": "I квартал 2029 г.",
+      "housingClass": "элит",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1020",
+      "firstSeenAt": "2026-10-30T15:55:24.369Z",
+      "lastSeenAt": "2026-11-07T11:05:40.089Z"
+    },
+    "primary:nurly-dala-2:1r:33m2": {
+      "id": "primary:nurly-dala-2:1r:33m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Nurly Dala 2",
+      "url": "https://krisha.kz/complex/show/almaty/nurlydala2/",
+      "price": 21500000,
+      "pricePerM2": 643713,
+      "rooms": 1,
+      "areaM2": 33.4,
+      "floor": null,
+      "district": "Наурызбайский",
+      "address": "Алматы, Наурызбайский р-н, ул. Райымбек, 590/15,16,14",
+      "complexName": "ЖК Nurly Dala 2",
+      "developer": "BAZIS–А",
+      "handoverDate": "Первая очередь - IV квартал 2024 г.Вторая очередь - II квартал 2025 г.Третья очередь - I квартал 2026 г.",
+      "housingClass": "эконом",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1175",
+      "firstSeenAt": "2026-11-07T11:05:40.093Z",
+      "lastSeenAt": "2026-11-07T11:05:40.093Z"
+    },
+    "primary:nurly-dala-2:2r:53m2": {
+      "id": "primary:nurly-dala-2:2r:53m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Nurly Dala 2",
+      "url": "https://krisha.kz/complex/show/almaty/nurlydala2/",
+      "price": 31800000,
+      "pricePerM2": 602273,
+      "rooms": 2,
+      "areaM2": 52.8,
+      "floor": null,
+      "district": "Наурызбайский",
+      "address": "Алматы, Наурызбайский р-н, ул. Райымбек, 590/15,16,14",
+      "complexName": "ЖК Nurly Dala 2",
+      "developer": "BAZIS–А",
+      "handoverDate": "Первая очередь - IV квартал 2024 г.Вторая очередь - II квартал 2025 г.Третья очередь - I квартал 2026 г.",
+      "housingClass": "эконом",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1176",
+      "firstSeenAt": "2026-11-07T11:05:40.094Z",
+      "lastSeenAt": "2026-11-07T11:05:40.094Z"
+    },
+    "primary:nurly-dala-2:3r:58m2": {
+      "id": "primary:nurly-dala-2:3r:58m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Nurly Dala 2",
+      "url": "https://krisha.kz/complex/show/almaty/nurlydala2/",
+      "price": 30700000,
+      "pricePerM2": 525685,
+      "rooms": 3,
+      "areaM2": 58.4,
+      "floor": null,
+      "district": "Наурызбайский",
+      "address": "Алматы, Наурызбайский р-н, ул. Райымбек, 590/15,16,14",
+      "complexName": "ЖК Nurly Dala 2",
+      "developer": "BAZIS–А",
+      "handoverDate": "Первая очередь - IV квартал 2024 г.Вторая очередь - II квартал 2025 г.Третья очередь - I квартал 2026 г.",
+      "housingClass": "эконом",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1177",
+      "firstSeenAt": "2026-11-07T11:05:40.095Z",
+      "lastSeenAt": "2026-11-07T11:05:40.095Z"
     }
   }
 }
