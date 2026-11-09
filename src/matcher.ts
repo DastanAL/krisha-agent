@@ -8,7 +8,8 @@ export function passesFilters(l: Listing): boolean {
 
 function passesPrimary(l: Listing): boolean {
   const c = config.primary;
-  if (c.districts.length && l.district && !c.districts.includes(l.district)) return false;
+  // Район неизвестен (Korter не всегда его отдаёт) — при заданном списке районов не пропускаем: иначе в топ лезут дешёвые ЖК с окраин.
+  if (c.districts.length && (!l.district || !c.districts.includes(l.district))) return false;
   if (c.rooms.length && l.rooms !== null && !c.rooms.includes(l.rooms)) return false;
   if (l.areaM2 !== null) {
     if (c.areaFromM2 > 0 && l.areaM2 < c.areaFromM2) return false;
@@ -29,7 +30,7 @@ function passesSecondary(l: Listing): boolean {
   }
   if (c.rooms.length && l.rooms !== null && !c.rooms.includes(l.rooms)) return false;
   if (c.areaFromM2 > 0 && l.areaM2 !== null && l.areaM2 < c.areaFromM2) return false;
-  if (c.districts.length && l.district && !c.districts.includes(l.district)) return false;
+  if (c.districts.length && (!l.district || !c.districts.includes(l.district))) return false;
 
   const haystack = `${l.title} ${l.address || ""} ${l.description || ""}`.toLowerCase();
   for (const kw of c.excludeKeywords) {

@@ -10,15 +10,15 @@ export const config = {
   // ─────────── Первичка (новостройки) — приоритет ───────────
   primary: {
     enabled: true,
-    districts: [] as string[], // TODO, напр. ["Бостандыкский", "Алмалинский"]
-    rooms: [] as number[], // TODO, напр. [1, 2]
-    areaFromM2: 0, // TODO
-    areaToM2: null as number | null, // TODO
-    priceTo: 0, // TODO, 0 = без лимита
-    pricePerM2To: 0, // TODO, 0 = без лимита
-    handoverBy: null as string | null, // TODO, формат "YYYY-MM", null = без ограничения
-    housingClasses: [] as string[], // TODO, напр. ["комфорт", "бизнес"]
-    krishaNewBuildingsUrl: "https://krisha.kz/complex/search/?regionAlias=almaty", // проверено вживую, отдаёт только ЖК Алматы
+    districts: ["Бостандыкский", "Алмалинский", "Медеуский", "Ауэзовский", "Жетысуский"],
+    rooms: [1, 2],
+    areaFromM2: 0,
+    areaToM2: null as number | null,
+    priceTo: 35_000_000,
+    pricePerM2To: 0, // 0 = без лимита
+    handoverBy: null as string | null, // null = срок сдачи неважен
+    housingClasses: [] as string[], // [] = любой класс
+    // Krisha: URL поиска собирается из фильтров выше автоматически (src/scrapers/krishaPrimary.ts).
     korterCityUrl: "https://korter.kz/новостройки-алматы", // проверено вживую (из sitemap building_geo_city.xml)
   },
 
@@ -26,11 +26,11 @@ export const config = {
   secondary: {
     enabled: false,
     deal: "prodazha" as DealType,
-    districts: [] as string[], // TODO
-    priceFrom: 0, // TODO
-    priceTo: 0, // TODO, 0 = без лимита
-    rooms: [] as number[], // TODO
-    areaFromM2: 0, // TODO
+    districts: ["Бостандыкский", "Алмалинский", "Медеуский", "Ауэзовский", "Жетысуский"],
+    priceFrom: 0,
+    priceTo: 35_000_000,
+    rooms: [1, 2],
+    areaFromM2: 0,
     excludeKeywords: [] as string[], // стоп-слова (при желании добавь)
     searchUrl: "https://krisha.kz/prodazha/kvartiry/almaty/", // TODO — выставь фильтры руками на krisha.kz и вставь итоговый URL
     districtScore: {} as Record<string, number>, // TODO — вес района для скоринга вторички (чем больше, тем выше в рейтинге)
@@ -49,7 +49,7 @@ export const config = {
 
   // ─────────── Поведение парсера / безопасность ───────────
   scraper: {
-    maxPages: 2,
+    maxPages: 3, // на каждый поиск (у Krisha — на каждый район)
     minDelayMs: 3000,
     maxDelayMs: 8000,
     headless: true,

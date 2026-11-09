@@ -8,6 +8,8 @@ export interface DigestInput {
   sourceFailures: string[];
 }
 
+const MAX_NEW_IN_DIGEST = 10;
+
 function fmtPrice(price: number): string {
   if (!price) return "цена не указана";
   const m = price / 1_000_000;
@@ -36,7 +38,14 @@ function buildFactsText(input: DigestInput): string {
   lines.push("");
   lines.push("НОВЫЕ ЗА ПОСЛЕДНИЕ 24 ЧАСА:");
   if (input.newOnes.length === 0) lines.push("новых подходящих объектов не найдено");
-  else input.newOnes.forEach((l) => lines.push(listingLine(l)));
+  else {
+    const shown = [...input.newOnes]
+      .sort((a, b) => (a.pricePerM2 ?? Infinity) - (b.pricePerM2 ?? Infinity))
+      .slice(0, MAX_NEW_IN_DIGEST);
+    shown.forEach((l) => lines.push(listingLine(l)));
+    const rest = input.newOnes.length - shown.length;
+    if (rest > 0) lines.push(`…и ещё ${rest} новых (полный список — в приложении dastan-apps)`);
+  }
 
   lines.push("");
   lines.push("СНИЖЕНИЯ ЦЕН:");
@@ -83,7 +92,7 @@ export async function buildDailyDigest(input: DigestInput): Promise<string> {
     },
     body: JSON.stringify({
       model: config.anthropicModel,
-      max_tokens: 1024,
+      max_tokens: 4000,
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: `Сегодня ${today}. Вот данные за сегодняшний прогон:\n\n${facts}` }],
     }),
@@ -97,5 +106,8 @@ export async function buildDailyDigest(input: DigestInput): Promise<string> {
     .join("\n")
     .trim();
 
-  return text || facts; // запасной вариант — если Claude вернул пусто, шлём сырые факты
+  console.log(`[digest] Claude: ${text.length} символов, stop_reason=${data.stop_reason}`);
+  // Обрезанный ответ хуже сырых фактов — в таком случае шлём факты целиком.
+  if (!text || data.stop_reason === "max_tokens") return `📊 Сводка по новостройкам — ${today}\n\n${facts}`;
+  return text;
 }

@@ -40,9 +40,11 @@ export async function searchKorter(): Promise<Listing[]> {
   const buildings: KorterBuilding[] = [];
 
   try {
+    // max_price фильтрует на стороне Korter (проверено вживую); комнаты и район он в URL не принимает — их отсекает matcher.ts.
+    const priceParam = config.primary.priceTo > 0 ? `max_price=${config.primary.priceTo}&` : "";
     for (let p = 1; p <= config.scraper.maxPages; p++) {
       const sep = config.primary.korterCityUrl.includes("?") ? "&" : "?";
-      const url = `${config.primary.korterCityUrl}${sep}page=${p}`;
+      const url = `${config.primary.korterCityUrl}${sep}${priceParam}page=${p}`;
       await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30_000 });
       await sleep(randomDelay());
 

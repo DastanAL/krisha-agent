@@ -9,6 +9,7 @@ const SOURCE = "krishaPrimary";
  * Разметка проверена вживую (Krisha.kz, раздел «Жилые комплексы», октябрь 2026).
  * Krisha периодически меняет вёрстку — если карточки перестали находиться,
  * открой https://krisha.kz/complex/search/?regionAlias=almaty в DevTools и поправь селекторы.
+ * URL-фильтры (regionAlias, rooms[], priceTo, page) проверены вживую — ноябрь 2026.
  */
 const SELECTORS = {
   card: ".complex-card",
@@ -28,7 +29,43 @@ interface ComplexCard {
   name: string;
   address: string | null;
   stateText: string;
+  district: string | null;
   priceItems: { rooms: number | null; areaM2: number | null; price: number }[];
+}
+
+// Алиасы районов в фильтре Krisha (из window.data.search.store.regionAlias на странице поиска).
+const DISTRICT_ALIASES: Record<string, string> = {
+  Алатауский: "almaty-alatauskij",
+  Алмалинский: "almaty-almalinskij",
+  Ауэзовский: "almaty-aujezovskij",
+  Бостандыкский: "almaty-bostandykskij",
+  Жетысуский: "almaty-zhetysuskij",
+  Медеуский: "almaty-medeuskij",
+  Наурызбайский: "almaty-nauryzbajskiy",
+  Турксибский: "almaty-turksibskij",
+};
+
+/** Фильтры config.primary передаются прямо в поиск Krisha, чтобы ограниченные maxPages страницы были релевантными. По району — отдельный поиск на каждый. */
+function buildSearchTargets(): { url: string; district: string | null }[] {
+  const params = new URLSearchParams();
+  for (const r of new Set(config.primary.rooms.map((r) => Math.min(r, 4)))) params.append("rooms[]", String(r));
+  if (config.primary.priceTo > 0) params.set("priceTo", String(config.primary.priceTo));
+
+  const withRegion = (alias: string) => {
+    const p = new URLSearchParams(params);
+    p.set("regionAlias", alias);
+    return `https://krisha.kz/complex/search/?${p.toString()}`;
+  };
+
+  if (config.primary.districts.length === 0) return [{ url: withRegion("almaty"), district: null }];
+
+  const targets: { url: string; district: string | null }[] = [];
+  for (const d of config.primary.districts) {
+    const alias = DISTRICT_ALIASES[d];
+    if (alias) targets.push({ url: withRegion(alias), district: d });
+    else console.warn(`[${SOURCE}] неизвестный район "${d}" в config.primary.districts — пропускаю`);
+  }
+  return targets;
 }
 
 /** Собирает новостройки Алматы с Krisha.kz. Бросает ScraperError при подозрении на поломку вёрстки — ловит оркестратор (run.ts). */
@@ -37,26 +74,35 @@ export async function searchKrishaPrimary(): Promise<Listing[]> {
   const context = await browser.newContext({ userAgent: config.scraper.userAgent });
   const page = await context.newPage();
   const cards: ComplexCard[] = [];
+  const seenAliases = new Set<string>();
 
   try {
-    for (let p = 1; p <= config.scraper.maxPages; p++) {
-      const sep = config.primary.krishaNewBuildingsUrl.includes("?") ? "&" : "?";
-      const url = `${config.primary.krishaNewBuildingsUrl}${sep}page=${p}`;
-      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30_000 });
-      await sleep(randomDelay());
+    for (const target of buildSearchTargets()) {
+      for (let p = 1; p <= config.scraper.maxPages; p++) {
+        // Без page=1: Krisha редиректит такой URL на канонический и теряет при этом rooms[].
+        const url = p === 1 ? target.url : `${target.url}&page=${p}`;
+        await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30_000 });
+        await sleep(randomDelay());
 
-      const cardEls = await page.$$(SELECTORS.card);
-      assertPageNotBroken(SOURCE, p, cardEls.length);
-      if (cardEls.length === 0) break;
+        // По узкому фильтру (район + комнаты + бюджет) 0 ЖК — нормальный результат, поэтому поломку проверяем по сумме ниже.
+        const cardEls = await page.$$(SELECTORS.card);
+        if (cardEls.length === 0) break;
 
-      for (const el of cardEls) {
-        const parsed = await parseCard(el);
-        if (parsed) cards.push(parsed);
+        for (const el of cardEls) {
+          const parsed = await parseCard(el);
+          if (!parsed || seenAliases.has(parsed.alias)) continue;
+          seenAliases.add(parsed.alias);
+          parsed.district = target.district ?? parseDistrict(parsed.address);
+          cards.push(parsed);
+        }
+        if (cardEls.length < 12) break; // неполная страница — дальше результатов нет
       }
     }
   } finally {
     await browser.close();
   }
+
+  assertPageNotBroken(SOURCE, 1, cards.length);
 
   // Детали (застройщик, срок сдачи, класс жилья, район) — отдельная страница на каждый ЖК.
   const detailBrowser = await chromium.launch({ headless: config.scraper.headless });
@@ -66,10 +112,12 @@ export async function searchKrishaPrimary(): Promise<Listing[]> {
 
   try {
     for (const card of cards) {
+      // Без опубликованных цен («Нет данных») объявлений из ЖК не получится — деталь не открываем, лишний раз не нагружаем сайт.
+      if (card.priceItems.length === 0) continue;
       let developer: string | null = null;
       let handoverDate: string | null = null;
       let housingClass: string | null = null;
-      let district: string | null = parseDistrict(card.address);
+      const district = card.district;
 
       try {
         await detailPage.goto(`https://krisha.kz/complex/show/${card.alias}/`, {
@@ -136,7 +184,7 @@ async function parseCard(el: ElementHandle): Promise<ComplexCard | null> {
       if (price > 0) priceItems.push({ rooms, areaM2, price });
     }
 
-    return { alias, name: name.trim(), address: address?.trim() || null, stateText, priceItems };
+    return { alias, name: name.trim(), address: address?.trim() || null, stateText, district: null, priceItems };
   } catch {
     return null;
   }
