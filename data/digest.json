@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T12:27:35.842Z",
+  "generatedAt": "2026-11-11T11:52:26.556Z",
   "topDeals": [
     {
       "id": "primary:mereke:1r:34m2",
@@ -23,7 +23,7 @@
       "postedAt": null,
       "code": "1085",
       "firstSeenAt": "2026-10-30T15:55:24.395Z",
-      "lastSeenAt": "2026-11-10T12:27:34.238Z"
+      "lastSeenAt": "2026-11-11T11:52:26.265Z"
     },
     {
       "id": "primary:mereke:1r:37m2",
@@ -47,7 +47,7 @@
       "postedAt": null,
       "code": "1086",
       "firstSeenAt": "2026-10-30T15:55:24.398Z",
-      "lastSeenAt": "2026-11-10T12:27:34.243Z"
+      "lastSeenAt": "2026-11-11T11:52:26.266Z"
     },
     {
       "id": "primary:river-city:1r:40m2",
@@ -71,7 +71,31 @@
       "postedAt": null,
       "code": "1247",
       "firstSeenAt": "2026-11-09T12:47:12.587Z",
-      "lastSeenAt": "2026-11-10T12:27:34.328Z"
+      "lastSeenAt": "2026-11-11T11:52:26.405Z"
+    },
+    {
+      "id": "primary:satay:1r:45m2",
+      "market": "primary",
+      "source": "krisha",
+      "title": "ЖК Satay",
+      "url": "https://krisha.kz/complex/show/almaty/satay/",
+      "price": 30328000,
+      "pricePerM2": 680000,
+      "rooms": 1,
+      "areaM2": 44.6,
+      "floor": null,
+      "district": "Жетысуский",
+      "address": "Алматы, Жетысуский р-н, ул. Боткина, 12/2 (пересечение ул. Райымбека - Ауезова)",
+      "complexName": "ЖК Satay",
+      "developer": "ТОО Высотник",
+      "handoverDate": "Первая очередь - IV квартал 2022 г.Вторая очередь - II квартал 2026 г.",
+      "housingClass": "эконом",
+      "photos": [],
+      "description": null,
+      "postedAt": null,
+      "code": "1253",
+      "firstSeenAt": "2026-11-11T11:52:26.256Z",
+      "lastSeenAt": "2026-11-11T11:52:26.256Z"
     },
     {
       "id": "primary:aurus:2r:49m2",
@@ -95,107 +119,35 @@
       "postedAt": null,
       "code": "1209",
       "firstSeenAt": "2026-11-09T12:47:12.547Z",
-      "lastSeenAt": "2026-11-10T12:27:34.289Z"
-    },
+      "lastSeenAt": "2026-11-11T11:52:26.343Z"
+    }
+  ],
+  "newOnes": [
     {
-      "id": "primary:maxima-city:1r:33m2",
+      "id": "primary:satay:1r:45m2",
       "market": "primary",
-      "source": "korter",
-      "title": "ЖК Maxima City",
-      "url": "https://korter.kz/жк-maxima-city-алматы",
-      "price": 22848000,
-      "pricePerM2": 700000,
+      "source": "krisha",
+      "title": "ЖК Satay",
+      "url": "https://krisha.kz/complex/show/almaty/satay/",
+      "price": 30328000,
+      "pricePerM2": 680000,
       "rooms": 1,
-      "areaM2": 32.64,
+      "areaM2": 44.6,
       "floor": null,
       "district": "Жетысуский",
-      "address": "просп. Райымбека, уч. 241",
-      "complexName": "ЖК Maxima City",
-      "developer": "KazSMU",
-      "handoverDate": "4 кв. 2024",
-      "housingClass": "IV класс (эконом)",
+      "address": "Алматы, Жетысуский р-н, ул. Боткина, 12/2 (пересечение ул. Райымбека - Ауезова)",
+      "complexName": "ЖК Satay",
+      "developer": "ТОО Высотник",
+      "handoverDate": "Первая очередь - IV квартал 2022 г.Вторая очередь - II квартал 2026 г.",
+      "housingClass": "эконом",
       "photos": [],
       "description": null,
       "postedAt": null,
-      "code": "1205",
-      "firstSeenAt": "2026-11-09T12:47:12.543Z",
-      "lastSeenAt": "2026-11-10T12:27:34.286Z"
+      "code": "1253",
+      "firstSeenAt": "2026-11-11T11:52:26.256Z",
+      "lastSeenAt": "2026-11-11T11:52:26.256Z"
     }
   ],
-  "newOnes": [],
-  "priceDrops": [
-    {
-      "listing": {
-        "id": "primary:satpaev:1r:43m2",
-        "market": "primary",
-        "source": "krisha",
-        "title": "ЖК Satpaev",
-        "url": "https://krisha.kz/complex/show/almaty/satpaev/",
-        "price": 36935500,
-        "pricePerM2": 865000,
-        "rooms": 1,
-        "areaM2": 42.7,
-        "floor": null,
-        "district": "Бостандыкский",
-        "address": "Алматы, Бостандыкский р-н, ул. Каныша Сатпаева, 90а/1",
-        "complexName": "ЖК Satpaev",
-        "developer": "BAZIS–А",
-        "handoverDate": "Первая очередь - II квартал 2026 г.Вторая очередь - III квартал 2028 г.",
-        "housingClass": "бизнес",
-        "photos": [],
-        "description": null,
-        "postedAt": null,
-        "code": "1178",
-        "firstSeenAt": "2026-11-09T12:47:12.494Z",
-        "lastSeenAt": "2026-11-10T12:27:34.203Z",
-        "priceHistory": [
-          {
-            "oldPrice": 38500000,
-            "newPrice": 36935500,
-            "changedAt": "2026-11-10T12:27:34.202Z"
-          }
-        ]
-      },
-      "oldPrice": 38500000,
-      "newPrice": 36935500,
-      "pct": 4.0636363636363635
-    },
-    {
-      "listing": {
-        "id": "primary:satpaev:3r:86m2",
-        "market": "primary",
-        "source": "krisha",
-        "title": "ЖК Satpaev",
-        "url": "https://krisha.kz/complex/show/almaty/satpaev/",
-        "price": 67667000,
-        "pricePerM2": 785000,
-        "rooms": 3,
-        "areaM2": 86.2,
-        "floor": null,
-        "district": "Бостандыкский",
-        "address": "Алматы, Бостандыкский р-н, ул. Каныша Сатпаева, 90а/1",
-        "complexName": "ЖК Satpaev",
-        "developer": "BAZIS–А",
-        "handoverDate": "Первая очередь - II квартал 2026 г.Вторая очередь - III квартал 2028 г.",
-        "housingClass": "бизнес",
-        "photos": [],
-        "description": null,
-        "postedAt": null,
-        "code": "1167",
-        "firstSeenAt": "2026-11-07T11:05:40.075Z",
-        "lastSeenAt": "2026-11-10T12:27:34.208Z",
-        "priceHistory": [
-          {
-            "oldPrice": 68900000,
-            "newPrice": 67667000,
-            "changedAt": "2026-11-10T12:27:34.207Z"
-          }
-        ]
-      },
-      "oldPrice": 68900000,
-      "newPrice": 67667000,
-      "pct": 1.7895500725689406
-    }
-  ],
+  "priceDrops": [],
   "sourceFailures": []
 }
