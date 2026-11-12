@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T11:52:26.556Z",
+  "generatedAt": "2026-11-12T12:31:38.610Z",
   "topDeals": [
     {
       "id": "primary:mereke:1r:34m2",
@@ -23,7 +23,7 @@
       "postedAt": null,
       "code": "1085",
       "firstSeenAt": "2026-10-30T15:55:24.395Z",
-      "lastSeenAt": "2026-11-11T11:52:26.265Z"
+      "lastSeenAt": "2026-11-12T12:31:38.375Z"
     },
     {
       "id": "primary:mereke:1r:37m2",
@@ -47,7 +47,7 @@
       "postedAt": null,
       "code": "1086",
       "firstSeenAt": "2026-10-30T15:55:24.398Z",
-      "lastSeenAt": "2026-11-11T11:52:26.266Z"
+      "lastSeenAt": "2026-11-12T12:31:38.377Z"
     },
     {
       "id": "primary:river-city:1r:40m2",
@@ -71,7 +71,7 @@
       "postedAt": null,
       "code": "1247",
       "firstSeenAt": "2026-11-09T12:47:12.587Z",
-      "lastSeenAt": "2026-11-11T11:52:26.405Z"
+      "lastSeenAt": "2026-11-12T12:31:38.511Z"
     },
     {
       "id": "primary:satay:1r:45m2",
@@ -95,7 +95,7 @@
       "postedAt": null,
       "code": "1253",
       "firstSeenAt": "2026-11-11T11:52:26.256Z",
-      "lastSeenAt": "2026-11-11T11:52:26.256Z"
+      "lastSeenAt": "2026-11-12T12:31:38.367Z"
     },
     {
       "id": "primary:aurus:2r:49m2",
@@ -119,35 +119,10 @@
       "postedAt": null,
       "code": "1209",
       "firstSeenAt": "2026-11-09T12:47:12.547Z",
-      "lastSeenAt": "2026-11-11T11:52:26.343Z"
+      "lastSeenAt": "2026-11-12T12:31:38.448Z"
     }
   ],
-  "newOnes": [
-    {
-      "id": "primary:satay:1r:45m2",
-      "market": "primary",
-      "source": "krisha",
-      "title": "ЖК Satay",
-      "url": "https://krisha.kz/complex/show/almaty/satay/",
-      "price": 30328000,
-      "pricePerM2": 680000,
-      "rooms": 1,
-      "areaM2": 44.6,
-      "floor": null,
-      "district": "Жетысуский",
-      "address": "Алматы, Жетысуский р-н, ул. Боткина, 12/2 (пересечение ул. Райымбека - Ауезова)",
-      "complexName": "ЖК Satay",
-      "developer": "ТОО Высотник",
-      "handoverDate": "Первая очередь - IV квартал 2022 г.Вторая очередь - II квартал 2026 г.",
-      "housingClass": "эконом",
-      "photos": [],
-      "description": null,
-      "postedAt": null,
-      "code": "1253",
-      "firstSeenAt": "2026-11-11T11:52:26.256Z",
-      "lastSeenAt": "2026-11-11T11:52:26.256Z"
-    }
-  ],
+  "newOnes": [],
   "priceDrops": [],
   "sourceFailures": []
 }
