@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T11:57:00.739Z",
+  "generatedAt": "2026-11-16T12:39:24.207Z",
   "codeSeq": 1255,
   "listings": {
     "primary:silver-hills:3r:108m2": {
@@ -249,7 +249,7 @@
       ],
       "code": "1010",
       "firstSeenAt": "2026-10-30T15:55:24.367Z",
-      "lastSeenAt": "2026-11-15T11:57:00.393Z"
+      "lastSeenAt": "2026-11-16T12:39:23.901Z"
     },
     "primary:taulan:2r:49m2": {
       "id": "primary:taulan:2r:49m2",
@@ -281,7 +281,7 @@
       ],
       "code": "1011",
       "firstSeenAt": "2026-10-30T15:55:24.367Z",
-      "lastSeenAt": "2026-11-15T11:57:00.397Z"
+      "lastSeenAt": "2026-11-16T12:39:23.905Z"
     },
     "primary:taulan:3r:74m2": {
       "id": "primary:taulan:3r:74m2",
@@ -313,7 +313,7 @@
       ],
       "code": "1012",
       "firstSeenAt": "2026-10-30T15:55:24.367Z",
-      "lastSeenAt": "2026-11-15T11:57:00.399Z"
+      "lastSeenAt": "2026-11-16T12:39:23.906Z"
     },
     "primary:vesper:2r:60m2": {
       "id": "primary:vesper:2r:60m2",
@@ -726,7 +726,7 @@
       "postedAt": null,
       "code": "1028",
       "firstSeenAt": "2026-10-30T15:55:24.372Z",
-      "lastSeenAt": "2026-11-15T11:57:00.442Z",
+      "lastSeenAt": "2026-11-16T12:39:23.939Z",
       "priceHistory": [
         {
           "oldPrice": 32665356,
@@ -1313,7 +1313,7 @@
       "postedAt": null,
       "code": "1051",
       "firstSeenAt": "2026-10-30T15:55:24.379Z",
-      "lastSeenAt": "2026-11-15T11:57:00.532Z",
+      "lastSeenAt": "2026-11-16T12:39:24.024Z",
       "priceHistory": [
         {
           "oldPrice": 50300000,
@@ -1936,7 +1936,7 @@
       "postedAt": null,
       "code": "1075",
       "firstSeenAt": "2026-10-30T15:55:24.387Z",
-      "lastSeenAt": "2026-11-15T11:57:00.408Z"
+      "lastSeenAt": "2026-11-16T12:39:23.911Z"
     },
     "primary:eco-park-alatau:2r:56m2": {
       "id": "primary:eco-park-alatau:2r:56m2",
@@ -1960,7 +1960,7 @@
       "postedAt": null,
       "code": "1076",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-15T11:57:00.410Z"
+      "lastSeenAt": "2026-11-16T12:39:23.913Z"
     },
     "primary:eco-park-alatau:3r:70m2": {
       "id": "primary:eco-park-alatau:3r:70m2",
@@ -1984,7 +1984,7 @@
       "postedAt": null,
       "code": "1077",
       "firstSeenAt": "2026-10-30T15:55:24.388Z",
-      "lastSeenAt": "2026-11-15T11:57:00.413Z"
+      "lastSeenAt": "2026-11-16T12:39:23.914Z"
     },
     "primary:estet:3r:125m2": {
       "id": "primary:estet:3r:125m2",
@@ -2176,7 +2176,7 @@
       "postedAt": null,
       "code": "1085",
       "firstSeenAt": "2026-10-30T15:55:24.395Z",
-      "lastSeenAt": "2026-11-15T11:57:00.415Z"
+      "lastSeenAt": "2026-11-16T12:39:23.915Z"
     },
     "primary:mereke:1r:37m2": {
       "id": "primary:mereke:1r:37m2",
@@ -2200,7 +2200,7 @@
       "postedAt": null,
       "code": "1086",
       "firstSeenAt": "2026-10-30T15:55:24.398Z",
-      "lastSeenAt": "2026-11-15T11:57:00.417Z"
+      "lastSeenAt": "2026-11-16T12:39:23.917Z"
     },
     "primary:mereke:3r:84m2": {
       "id": "primary:mereke:3r:84m2",
@@ -2224,7 +2224,7 @@
       "postedAt": null,
       "code": "1087",
       "firstSeenAt": "2026-10-30T15:55:24.399Z",
-      "lastSeenAt": "2026-11-15T11:57:00.418Z"
+      "lastSeenAt": "2026-11-16T12:39:23.918Z"
     },
     "primary:palladium-бизнес:3r:106m2": {
       "id": "primary:palladium-бизнес:3r:106m2",
@@ -2344,7 +2344,7 @@
       "postedAt": null,
       "code": "1092",
       "firstSeenAt": "2026-10-30T15:55:24.402Z",
-      "lastSeenAt": "2026-11-15T11:57:00.419Z"
+      "lastSeenAt": "2026-11-16T12:39:23.919Z"
     },
     "primary:tumar:2r:46m2": {
       "id": "primary:tumar:2r:46m2",
@@ -2368,7 +2368,7 @@
       "postedAt": null,
       "code": "1093",
       "firstSeenAt": "2026-10-30T15:55:24.402Z",
-      "lastSeenAt": "2026-11-15T11:57:00.421Z"
+      "lastSeenAt": "2026-11-16T12:39:23.921Z"
     },
     "primary:tumar:3r:97m2": {
       "id": "primary:tumar:3r:97m2",
@@ -2392,7 +2392,7 @@
       "postedAt": null,
       "code": "1094",
       "firstSeenAt": "2026-10-30T15:55:24.402Z",
-      "lastSeenAt": "2026-11-15T11:57:00.422Z"
+      "lastSeenAt": "2026-11-16T12:39:23.922Z"
     },
     "primary:auezov-city:2r:66m2": {
       "id": "primary:auezov-city:2r:66m2",
@@ -2440,7 +2440,7 @@
       "postedAt": null,
       "code": "1096",
       "firstSeenAt": "2026-10-30T15:55:24.403Z",
-      "lastSeenAt": "2026-11-15T11:57:00.424Z"
+      "lastSeenAt": "2026-11-16T12:39:23.924Z"
     },
     "primary:arena-sunset:2r:52m2": {
       "id": "primary:arena-sunset:2r:52m2",
@@ -2464,7 +2464,7 @@
       "postedAt": null,
       "code": "1097",
       "firstSeenAt": "2026-10-30T15:55:24.404Z",
-      "lastSeenAt": "2026-11-15T11:57:00.426Z"
+      "lastSeenAt": "2026-11-16T12:39:23.925Z"
     },
     "primary:arena-sunset:3r:71m2": {
       "id": "primary:arena-sunset:3r:71m2",
@@ -2488,7 +2488,7 @@
       "postedAt": null,
       "code": "1098",
       "firstSeenAt": "2026-10-30T15:55:24.404Z",
-      "lastSeenAt": "2026-11-15T11:57:00.427Z"
+      "lastSeenAt": "2026-11-16T12:39:23.926Z"
     },
     "primary:rams-city:3r:76m2": {
       "id": "primary:rams-city:3r:76m2",
@@ -2608,7 +2608,7 @@
       "postedAt": null,
       "code": "1103",
       "firstSeenAt": "2026-10-30T15:55:24.407Z",
-      "lastSeenAt": "2026-11-15T11:57:00.429Z"
+      "lastSeenAt": "2026-11-16T12:39:23.927Z"
     },
     "primary:elaman:2r:50m2": {
       "id": "primary:elaman:2r:50m2",
@@ -2632,7 +2632,7 @@
       "postedAt": null,
       "code": "1104",
       "firstSeenAt": "2026-10-30T15:55:24.407Z",
-      "lastSeenAt": "2026-11-15T11:57:00.430Z"
+      "lastSeenAt": "2026-11-16T12:39:23.929Z"
     },
     "primary:hayat-meliora:2r:63m2": {
       "id": "primary:hayat-meliora:2r:63m2",
@@ -2824,7 +2824,7 @@
       "postedAt": null,
       "code": "1112",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-15T11:57:00.432Z"
+      "lastSeenAt": "2026-11-16T12:39:23.930Z"
     },
     "primary:gate-city:2r:63m2": {
       "id": "primary:gate-city:2r:63m2",
@@ -2848,7 +2848,7 @@
       "postedAt": null,
       "code": "1113",
       "firstSeenAt": "2026-10-30T15:55:24.413Z",
-      "lastSeenAt": "2026-11-15T11:57:00.433Z"
+      "lastSeenAt": "2026-11-16T12:39:23.932Z"
     },
     "primary:gate-city:3r:85m2": {
       "id": "primary:gate-city:3r:85m2",
@@ -2872,7 +2872,7 @@
       "postedAt": null,
       "code": "1114",
       "firstSeenAt": "2026-10-30T15:55:24.414Z",
-      "lastSeenAt": "2026-11-15T11:57:00.435Z"
+      "lastSeenAt": "2026-11-16T12:39:23.933Z"
     },
     "primary:metropole:3r:119m2": {
       "id": "primary:metropole:3r:119m2",
@@ -3088,7 +3088,7 @@
       "postedAt": null,
       "code": "1123",
       "firstSeenAt": "2026-10-30T15:55:24.419Z",
-      "lastSeenAt": "2026-11-15T11:57:00.437Z"
+      "lastSeenAt": "2026-11-16T12:39:23.935Z"
     },
     "primary:altyn-city:2r:64m2": {
       "id": "primary:altyn-city:2r:64m2",
@@ -3112,7 +3112,7 @@
       "postedAt": null,
       "code": "1124",
       "firstSeenAt": "2026-10-30T15:55:24.419Z",
-      "lastSeenAt": "2026-11-15T11:57:00.438Z"
+      "lastSeenAt": "2026-11-16T12:39:23.936Z"
     },
     "primary:altyn-city:3r:82m2": {
       "id": "primary:altyn-city:3r:82m2",
@@ -3136,7 +3136,7 @@
       "postedAt": null,
       "code": "1125",
       "firstSeenAt": "2026-10-30T15:55:24.420Z",
-      "lastSeenAt": "2026-11-15T11:57:00.439Z"
+      "lastSeenAt": "2026-11-16T12:39:23.937Z"
     },
     "primary:горное-солнце:2r:76m2": {
       "id": "primary:горное-солнце:2r:76m2",
@@ -3280,7 +3280,7 @@
       "postedAt": null,
       "code": "1131",
       "firstSeenAt": "2026-10-30T15:55:24.423Z",
-      "lastSeenAt": "2026-11-15T11:57:00.443Z"
+      "lastSeenAt": "2026-11-16T12:39:23.941Z"
     },
     "primary:munar-tau:2r:68m2": {
       "id": "primary:munar-tau:2r:68m2",
@@ -3400,7 +3400,7 @@
       "postedAt": null,
       "code": "1136",
       "firstSeenAt": "2026-10-30T15:55:24.426Z",
-      "lastSeenAt": "2026-11-15T11:57:00.445Z"
+      "lastSeenAt": "2026-11-16T12:39:23.942Z"
     },
     "primary:аккент:1r:41m2": {
       "id": "primary:аккент:1r:41m2",
@@ -3424,7 +3424,7 @@
       "postedAt": null,
       "code": "1137",
       "firstSeenAt": "2026-10-30T15:55:24.427Z",
-      "lastSeenAt": "2026-11-15T11:57:00.446Z"
+      "lastSeenAt": "2026-11-16T12:39:23.943Z"
     },
     "primary:аккент:2r:47m2": {
       "id": "primary:аккент:2r:47m2",
@@ -3448,7 +3448,7 @@
       "postedAt": null,
       "code": "1138",
       "firstSeenAt": "2026-10-30T15:55:24.427Z",
-      "lastSeenAt": "2026-11-15T11:57:00.448Z"
+      "lastSeenAt": "2026-11-16T12:39:23.944Z"
     },
     "primary:аккент:3r:77m2": {
       "id": "primary:аккент:3r:77m2",
@@ -3472,7 +3472,7 @@
       "postedAt": null,
       "code": "1139",
       "firstSeenAt": "2026-10-30T15:55:24.428Z",
-      "lastSeenAt": "2026-11-15T11:57:00.449Z"
+      "lastSeenAt": "2026-11-16T12:39:23.946Z"
     },
     "primary:esentai-city-villas:xr:620m2": {
       "id": "primary:esentai-city-villas:xr:620m2",
@@ -4127,7 +4127,7 @@
       "postedAt": null,
       "code": "1163",
       "firstSeenAt": "2026-11-07T11:05:40.060Z",
-      "lastSeenAt": "2026-11-15T11:57:00.526Z",
+      "lastSeenAt": "2026-11-16T12:39:24.018Z",
       "priceHistory": [
         {
           "oldPrice": 19000000,
@@ -4158,7 +4158,7 @@
       "postedAt": null,
       "code": "1164",
       "firstSeenAt": "2026-11-07T11:05:40.069Z",
-      "lastSeenAt": "2026-11-15T11:57:00.527Z",
+      "lastSeenAt": "2026-11-16T12:39:24.020Z",
       "priceHistory": [
         {
           "oldPrice": 25500000,
@@ -4362,17 +4362,9 @@
       "photos": [],
       "description": null,
       "postedAt": null,
-      "sources": [
-        "krisha",
-        "korter"
-      ],
-      "urls": [
-        "https://krisha.kz/complex/show/almaty/auezovcitypro/",
-        "https://korter.kz/жк-auezov-city-pro-алматы"
-      ],
       "code": "1172",
       "firstSeenAt": "2026-11-07T11:05:40.082Z",
-      "lastSeenAt": "2026-11-15T11:57:00.400Z",
+      "lastSeenAt": "2026-11-16T12:39:24.040Z",
       "priceHistory": [
         {
           "oldPrice": 31500000,
@@ -4408,34 +4400,33 @@
     "primary:auezov-city-pro:3r:72m2": {
       "id": "primary:auezov-city-pro:3r:72m2",
       "market": "primary",
-      "source": "krisha",
+      "source": "korter",
       "title": "ЖК Auezov City Pro",
-      "url": "https://krisha.kz/complex/show/almaty/auezovcitypro/",
-      "price": 53600000,
-      "pricePerM2": 749650,
+      "url": "https://korter.kz/жк-auezov-city-pro-алматы",
+      "price": 53625000,
+      "pricePerM2": 750000,
       "rooms": 3,
       "areaM2": 71.5,
       "floor": null,
       "district": "Алмалинский",
-      "address": "Алматы, Алмалинский р-н, ул. Райымбека, 210/27",
+      "address": "просп. Райымбека, уч. 210/9, уч.210/11",
       "complexName": "ЖК Auezov City Pro",
-      "developer": "BAZIS–А",
-      "handoverDate": "III квартал 2027 г.",
+      "developer": "BAZIS-А",
+      "handoverDate": "1 кв. 2027",
       "housingClass": "комфорт",
       "photos": [],
       "description": null,
       "postedAt": null,
-      "sources": [
-        "krisha",
-        "korter"
-      ],
-      "urls": [
-        "https://krisha.kz/complex/show/almaty/auezovcitypro/",
-        "https://korter.kz/жк-auezov-city-pro-алматы"
-      ],
       "code": "1174",
       "firstSeenAt": "2026-11-07T11:05:40.084Z",
-      "lastSeenAt": "2026-11-15T11:57:00.403Z"
+      "lastSeenAt": "2026-11-16T12:39:24.044Z",
+      "priceHistory": [
+        {
+          "oldPrice": 53600000,
+          "newPrice": 53625000,
+          "changedAt": "2026-11-16T12:39:24.042Z"
+        }
+      ]
     },
     "primary:клубный-дом-parkville:4r:133m2": {
       "id": "primary:клубный-дом-parkville:4r:133m2",
@@ -4507,7 +4498,7 @@
       "postedAt": null,
       "code": "1176",
       "firstSeenAt": "2026-11-07T11:05:40.094Z",
-      "lastSeenAt": "2026-11-15T11:57:00.493Z",
+      "lastSeenAt": "2026-11-16T12:39:23.986Z",
       "priceHistory": [
         {
           "oldPrice": 31800000,
@@ -4617,7 +4608,7 @@
       "postedAt": null,
       "code": "1180",
       "firstSeenAt": "2026-11-09T12:47:12.497Z",
-      "lastSeenAt": "2026-11-15T11:57:00.395Z"
+      "lastSeenAt": "2026-11-16T12:39:23.903Z"
     },
     "primary:auezov-city-pro:2r:46m2": {
       "id": "primary:auezov-city-pro:2r:46m2",
@@ -4639,17 +4630,9 @@
       "photos": [],
       "description": null,
       "postedAt": null,
-      "sources": [
-        "krisha",
-        "korter"
-      ],
-      "urls": [
-        "https://krisha.kz/complex/show/almaty/auezovcitypro/",
-        "https://korter.kz/жк-auezov-city-pro-алматы"
-      ],
       "code": "1173",
       "firstSeenAt": "2026-11-07T11:05:40.083Z",
-      "lastSeenAt": "2026-11-15T11:57:00.401Z"
+      "lastSeenAt": "2026-11-16T12:39:24.041Z"
     },
     "primary:parasat-2:1r:41m2": {
       "id": "primary:parasat-2:1r:41m2",
@@ -4673,7 +4656,7 @@
       "postedAt": null,
       "code": "1027",
       "firstSeenAt": "2026-10-30T15:55:24.371Z",
-      "lastSeenAt": "2026-11-15T11:57:00.441Z"
+      "lastSeenAt": "2026-11-16T12:39:23.938Z"
     },
     "primary:ырысты:2r:49m2": {
       "id": "primary:ырысты:2r:49m2",
@@ -4697,7 +4680,7 @@
       "postedAt": null,
       "code": "1181",
       "firstSeenAt": "2026-11-09T12:47:12.526Z",
-      "lastSeenAt": "2026-11-15T11:57:00.450Z"
+      "lastSeenAt": "2026-11-16T12:39:23.947Z"
     },
     "primary:nomad-city:1r:41m2": {
       "id": "primary:nomad-city:1r:41m2",
@@ -4721,7 +4704,7 @@
       "postedAt": null,
       "code": "1182",
       "firstSeenAt": "2026-11-09T12:47:12.527Z",
-      "lastSeenAt": "2026-11-15T11:57:00.452Z"
+      "lastSeenAt": "2026-11-16T12:39:23.948Z"
     },
     "primary:nomad-city:2r:55m2": {
       "id": "primary:nomad-city:2r:55m2",
@@ -4745,7 +4728,7 @@
       "postedAt": null,
       "code": "1183",
       "firstSeenAt": "2026-11-09T12:47:12.528Z",
-      "lastSeenAt": "2026-11-15T11:57:00.453Z"
+      "lastSeenAt": "2026-11-16T12:39:23.949Z"
     },
     "primary:nomad-city:3r:90m2": {
       "id": "primary:nomad-city:3r:90m2",
@@ -4769,7 +4752,7 @@
       "postedAt": null,
       "code": "1184",
       "firstSeenAt": "2026-11-09T12:47:12.528Z",
-      "lastSeenAt": "2026-11-15T11:57:00.454Z"
+      "lastSeenAt": "2026-11-16T12:39:23.950Z"
     },
     "primary:мжк-каспий:1r:26m2": {
       "id": "primary:мжк-каспий:1r:26m2",
@@ -4793,7 +4776,7 @@
       "postedAt": null,
       "code": "1185",
       "firstSeenAt": "2026-11-09T12:47:12.529Z",
-      "lastSeenAt": "2026-11-15T11:57:00.455Z"
+      "lastSeenAt": "2026-11-16T12:39:23.952Z"
     },
     "primary:мжк-каспий:1r:33m2": {
       "id": "primary:мжк-каспий:1r:33m2",
@@ -4817,7 +4800,7 @@
       "postedAt": null,
       "code": "1186",
       "firstSeenAt": "2026-11-09T12:47:12.530Z",
-      "lastSeenAt": "2026-11-15T11:57:00.457Z"
+      "lastSeenAt": "2026-11-16T12:39:23.954Z"
     },
     "primary:мжк-каспий:2r:55m2": {
       "id": "primary:мжк-каспий:2r:55m2",
@@ -4841,7 +4824,7 @@
       "postedAt": null,
       "code": "1187",
       "firstSeenAt": "2026-11-09T12:47:12.530Z",
-      "lastSeenAt": "2026-11-15T11:57:00.459Z"
+      "lastSeenAt": "2026-11-16T12:39:23.955Z"
     },
     "primary:аспан-сити-2-0:1r:45m2": {
       "id": "primary:аспан-сити-2-0:1r:45m2",
@@ -4865,7 +4848,7 @@
       "postedAt": null,
       "code": "1188",
       "firstSeenAt": "2026-11-09T12:47:12.531Z",
-      "lastSeenAt": "2026-11-15T11:57:00.460Z"
+      "lastSeenAt": "2026-11-16T12:39:23.956Z"
     },
     "primary:аспан-сити-2-0:2r:55m2": {
       "id": "primary:аспан-сити-2-0:2r:55m2",
@@ -4889,7 +4872,7 @@
       "postedAt": null,
       "code": "1189",
       "firstSeenAt": "2026-11-09T12:47:12.532Z",
-      "lastSeenAt": "2026-11-15T11:57:00.462Z"
+      "lastSeenAt": "2026-11-16T12:39:23.957Z"
     },
     "primary:аспан-сити-2-0:3r:70m2": {
       "id": "primary:аспан-сити-2-0:3r:70m2",
@@ -4913,7 +4896,7 @@
       "postedAt": null,
       "code": "1190",
       "firstSeenAt": "2026-11-09T12:47:12.533Z",
-      "lastSeenAt": "2026-11-15T11:57:00.463Z"
+      "lastSeenAt": "2026-11-16T12:39:23.958Z"
     },
     "primary:arena-park:1r:29m2": {
       "id": "primary:arena-park:1r:29m2",
@@ -4937,7 +4920,7 @@
       "postedAt": null,
       "code": "1191",
       "firstSeenAt": "2026-11-09T12:47:12.533Z",
-      "lastSeenAt": "2026-11-15T11:57:00.464Z"
+      "lastSeenAt": "2026-11-16T12:39:23.960Z"
     },
     "primary:arena-park:2r:43m2": {
       "id": "primary:arena-park:2r:43m2",
@@ -4961,7 +4944,7 @@
       "postedAt": null,
       "code": "1192",
       "firstSeenAt": "2026-11-09T12:47:12.534Z",
-      "lastSeenAt": "2026-11-15T11:57:00.465Z"
+      "lastSeenAt": "2026-11-16T12:39:23.961Z"
     },
     "primary:arena-park:3r:85m2": {
       "id": "primary:arena-park:3r:85m2",
@@ -4985,7 +4968,7 @@
       "postedAt": null,
       "code": "1193",
       "firstSeenAt": "2026-11-09T12:47:12.535Z",
-      "lastSeenAt": "2026-11-15T11:57:00.467Z"
+      "lastSeenAt": "2026-11-16T12:39:23.962Z"
     },
     "primary:arena-park:4r:121m2": {
       "id": "primary:arena-park:4r:121m2",
@@ -5009,7 +4992,7 @@
       "postedAt": null,
       "code": "1194",
       "firstSeenAt": "2026-11-09T12:47:12.535Z",
-      "lastSeenAt": "2026-11-15T11:57:00.468Z"
+      "lastSeenAt": "2026-11-16T12:39:23.964Z"
     },
     "primary:kamenka-park:2r:47m2": {
       "id": "primary:kamenka-park:2r:47m2",
@@ -5033,7 +5016,7 @@
       "postedAt": null,
       "code": "1195",
       "firstSeenAt": "2026-11-09T12:47:12.536Z",
-      "lastSeenAt": "2026-11-15T11:57:00.470Z"
+      "lastSeenAt": "2026-11-16T12:39:23.965Z"
     },
     "primary:kamenka-park:3r:67m2": {
       "id": "primary:kamenka-park:3r:67m2",
@@ -5057,7 +5040,7 @@
       "postedAt": null,
       "code": "1196",
       "firstSeenAt": "2026-11-09T12:47:12.537Z",
-      "lastSeenAt": "2026-11-15T11:57:00.471Z"
+      "lastSeenAt": "2026-11-16T12:39:23.966Z"
     },
     "primary:kamila:xr:30m2": {
       "id": "primary:kamila:xr:30m2",
@@ -5081,7 +5064,7 @@
       "postedAt": null,
       "code": "1197",
       "firstSeenAt": "2026-11-09T12:47:12.537Z",
-      "lastSeenAt": "2026-11-15T11:57:00.472Z"
+      "lastSeenAt": "2026-11-16T12:39:23.967Z"
     },
     "primary:kamila:1r:33m2": {
       "id": "primary:kamila:1r:33m2",
@@ -5105,7 +5088,7 @@
       "postedAt": null,
       "code": "1198",
       "firstSeenAt": "2026-11-09T12:47:12.538Z",
-      "lastSeenAt": "2026-11-15T11:57:00.474Z"
+      "lastSeenAt": "2026-11-16T12:39:23.969Z"
     },
     "primary:kamila:2r:70m2": {
       "id": "primary:kamila:2r:70m2",
@@ -5129,7 +5112,7 @@
       "postedAt": null,
       "code": "1199",
       "firstSeenAt": "2026-11-09T12:47:12.539Z",
-      "lastSeenAt": "2026-11-15T11:57:00.475Z"
+      "lastSeenAt": "2026-11-16T12:39:23.970Z"
     },
     "primary:buta-fenomen:1r:47m2": {
       "id": "primary:buta-fenomen:1r:47m2",
@@ -5153,7 +5136,7 @@
       "postedAt": null,
       "code": "1200",
       "firstSeenAt": "2026-11-09T12:47:12.540Z",
-      "lastSeenAt": "2026-11-15T11:57:00.476Z"
+      "lastSeenAt": "2026-11-16T12:39:23.971Z"
     },
     "primary:buta-fenomen:2r:52m2": {
       "id": "primary:buta-fenomen:2r:52m2",
@@ -5177,7 +5160,7 @@
       "postedAt": null,
       "code": "1201",
       "firstSeenAt": "2026-11-09T12:47:12.540Z",
-      "lastSeenAt": "2026-11-15T11:57:00.478Z"
+      "lastSeenAt": "2026-11-16T12:39:23.973Z"
     },
     "primary:magnit-alatau:1r:34m2": {
       "id": "primary:magnit-alatau:1r:34m2",
@@ -5201,7 +5184,7 @@
       "postedAt": null,
       "code": "1202",
       "firstSeenAt": "2026-11-09T12:47:12.541Z",
-      "lastSeenAt": "2026-11-15T11:57:00.480Z"
+      "lastSeenAt": "2026-11-16T12:39:23.974Z"
     },
     "primary:magnit-alatau:2r:49m2": {
       "id": "primary:magnit-alatau:2r:49m2",
@@ -5225,7 +5208,7 @@
       "postedAt": null,
       "code": "1203",
       "firstSeenAt": "2026-11-09T12:47:12.542Z",
-      "lastSeenAt": "2026-11-15T11:57:00.481Z"
+      "lastSeenAt": "2026-11-16T12:39:23.975Z"
     },
     "primary:magnit-alatau:3r:86m2": {
       "id": "primary:magnit-alatau:3r:86m2",
@@ -5249,7 +5232,7 @@
       "postedAt": null,
       "code": "1204",
       "firstSeenAt": "2026-11-09T12:47:12.543Z",
-      "lastSeenAt": "2026-11-15T11:57:00.482Z"
+      "lastSeenAt": "2026-11-16T12:39:23.976Z"
     },
     "primary:maxima-city:1r:33m2": {
       "id": "primary:maxima-city:1r:33m2",
@@ -5273,7 +5256,7 @@
       "postedAt": null,
       "code": "1205",
       "firstSeenAt": "2026-11-09T12:47:12.543Z",
-      "lastSeenAt": "2026-11-15T11:57:00.484Z"
+      "lastSeenAt": "2026-11-16T12:39:23.977Z"
     },
     "primary:maxima-city:2r:50m2": {
       "id": "primary:maxima-city:2r:50m2",
@@ -5297,7 +5280,7 @@
       "postedAt": null,
       "code": "1206",
       "firstSeenAt": "2026-11-09T12:47:12.544Z",
-      "lastSeenAt": "2026-11-15T11:57:00.485Z"
+      "lastSeenAt": "2026-11-16T12:39:23.978Z"
     },
     "primary:maxima-city:3r:63m2": {
       "id": "primary:maxima-city:3r:63m2",
@@ -5321,7 +5304,7 @@
       "postedAt": null,
       "code": "1207",
       "firstSeenAt": "2026-11-09T12:47:12.545Z",
-      "lastSeenAt": "2026-11-15T11:57:00.486Z"
+      "lastSeenAt": "2026-11-16T12:39:23.980Z"
     },
     "primary:aurus:1r:41m2": {
       "id": "primary:aurus:1r:41m2",
@@ -5345,7 +5328,7 @@
       "postedAt": null,
       "code": "1208",
       "firstSeenAt": "2026-11-09T12:47:12.546Z",
-      "lastSeenAt": "2026-11-15T11:57:00.488Z"
+      "lastSeenAt": "2026-11-16T12:39:23.981Z"
     },
     "primary:aurus:2r:49m2": {
       "id": "primary:aurus:2r:49m2",
@@ -5369,7 +5352,7 @@
       "postedAt": null,
       "code": "1209",
       "firstSeenAt": "2026-11-09T12:47:12.547Z",
-      "lastSeenAt": "2026-11-15T11:57:00.489Z"
+      "lastSeenAt": "2026-11-16T12:39:23.982Z"
     },
     "primary:aurus:3r:68m2": {
       "id": "primary:aurus:3r:68m2",
@@ -5393,7 +5376,7 @@
       "postedAt": null,
       "code": "1210",
       "firstSeenAt": "2026-11-09T12:47:12.548Z",
-      "lastSeenAt": "2026-11-15T11:57:00.491Z"
+      "lastSeenAt": "2026-11-16T12:39:23.984Z"
     },
     "primary:nurly-dala-2:1r:35m2": {
       "id": "primary:nurly-dala-2:1r:35m2",
@@ -5417,7 +5400,7 @@
       "postedAt": null,
       "code": "1211",
       "firstSeenAt": "2026-11-09T12:47:12.548Z",
-      "lastSeenAt": "2026-11-15T11:57:00.492Z"
+      "lastSeenAt": "2026-11-16T12:39:23.985Z"
     },
     "primary:nurly-dala-2:3r:53m2": {
       "id": "primary:nurly-dala-2:3r:53m2",
@@ -5441,7 +5424,7 @@
       "postedAt": null,
       "code": "1212",
       "firstSeenAt": "2026-11-09T12:47:12.551Z",
-      "lastSeenAt": "2026-11-15T11:57:00.494Z"
+      "lastSeenAt": "2026-11-16T12:39:23.987Z"
     },
     "primary:turan:1r:43m2": {
       "id": "primary:turan:1r:43m2",
@@ -5465,7 +5448,7 @@
       "postedAt": null,
       "code": "1213",
       "firstSeenAt": "2026-11-09T12:47:12.551Z",
-      "lastSeenAt": "2026-11-15T11:57:00.496Z"
+      "lastSeenAt": "2026-11-16T12:39:23.988Z"
     },
     "primary:turan:2r:59m2": {
       "id": "primary:turan:2r:59m2",
@@ -5489,7 +5472,7 @@
       "postedAt": null,
       "code": "1214",
       "firstSeenAt": "2026-11-09T12:47:12.552Z",
-      "lastSeenAt": "2026-11-15T11:57:00.497Z"
+      "lastSeenAt": "2026-11-16T12:39:23.990Z"
     },
     "primary:turan:3r:77m2": {
       "id": "primary:turan:3r:77m2",
@@ -5513,7 +5496,7 @@
       "postedAt": null,
       "code": "1215",
       "firstSeenAt": "2026-11-09T12:47:12.553Z",
-      "lastSeenAt": "2026-11-15T11:57:00.498Z"
+      "lastSeenAt": "2026-11-16T12:39:23.991Z"
     },
     "primary:arena-city-sport:1r:28m2": {
       "id": "primary:arena-city-sport:1r:28m2",
@@ -5537,7 +5520,7 @@
       "postedAt": null,
       "code": "1216",
       "firstSeenAt": "2026-11-09T12:47:12.554Z",
-      "lastSeenAt": "2026-11-15T11:57:00.500Z"
+      "lastSeenAt": "2026-11-16T12:39:23.992Z"
     },
     "primary:arena-city-sport:2r:43m2": {
       "id": "primary:arena-city-sport:2r:43m2",
@@ -5561,7 +5544,7 @@
       "postedAt": null,
       "code": "1217",
       "firstSeenAt": "2026-11-09T12:47:12.555Z",
-      "lastSeenAt": "2026-11-15T11:57:00.502Z"
+      "lastSeenAt": "2026-11-16T12:39:23.994Z"
     },
     "primary:arena-city-sport:3r:53m2": {
       "id": "primary:arena-city-sport:3r:53m2",
@@ -5585,7 +5568,7 @@
       "postedAt": null,
       "code": "1218",
       "firstSeenAt": "2026-11-09T12:47:12.556Z",
-      "lastSeenAt": "2026-11-15T11:57:00.503Z"
+      "lastSeenAt": "2026-11-16T12:39:23.995Z"
     },
     "primary:arena-city-sport:4r:104m2": {
       "id": "primary:arena-city-sport:4r:104m2",
@@ -5609,7 +5592,7 @@
       "postedAt": null,
       "code": "1219",
       "firstSeenAt": "2026-11-09T12:47:12.557Z",
-      "lastSeenAt": "2026-11-15T11:57:00.504Z"
+      "lastSeenAt": "2026-11-16T12:39:23.996Z"
     },
     "primary:arena-city-life:1r:30m2": {
       "id": "primary:arena-city-life:1r:30m2",
@@ -5633,7 +5616,7 @@
       "postedAt": null,
       "code": "1220",
       "firstSeenAt": "2026-11-09T12:47:12.557Z",
-      "lastSeenAt": "2026-11-15T11:57:00.506Z"
+      "lastSeenAt": "2026-11-16T12:39:23.997Z"
     },
     "primary:arena-city-life:2r:45m2": {
       "id": "primary:arena-city-life:2r:45m2",
@@ -5657,7 +5640,7 @@
       "postedAt": null,
       "code": "1221",
       "firstSeenAt": "2026-11-09T12:47:12.558Z",
-      "lastSeenAt": "2026-11-15T11:57:00.507Z"
+      "lastSeenAt": "2026-11-16T12:39:23.998Z"
     },
     "primary:arena-city-life:3r:65m2": {
       "id": "primary:arena-city-life:3r:65m2",
@@ -5681,7 +5664,7 @@
       "postedAt": null,
       "code": "1222",
       "firstSeenAt": "2026-11-09T12:47:12.559Z",
-      "lastSeenAt": "2026-11-15T11:57:00.508Z"
+      "lastSeenAt": "2026-11-16T12:39:24.000Z"
     },
     "primary:arena-city-life:4r:119m2": {
       "id": "primary:arena-city-life:4r:119m2",
@@ -5705,7 +5688,7 @@
       "postedAt": null,
       "code": "1223",
       "firstSeenAt": "2026-11-09T12:47:12.560Z",
-      "lastSeenAt": "2026-11-15T11:57:00.510Z"
+      "lastSeenAt": "2026-11-16T12:39:24.002Z"
     },
     "primary:dream-city-eco:1r:28m2": {
       "id": "primary:dream-city-eco:1r:28m2",
@@ -5729,7 +5712,7 @@
       "postedAt": null,
       "code": "1224",
       "firstSeenAt": "2026-11-09T12:47:12.561Z",
-      "lastSeenAt": "2026-11-15T11:57:00.511Z"
+      "lastSeenAt": "2026-11-16T12:39:24.003Z"
     },
     "primary:dream-city-eco:2r:45m2": {
       "id": "primary:dream-city-eco:2r:45m2",
@@ -5753,7 +5736,7 @@
       "postedAt": null,
       "code": "1225",
       "firstSeenAt": "2026-11-09T12:47:12.562Z",
-      "lastSeenAt": "2026-11-15T11:57:00.513Z"
+      "lastSeenAt": "2026-11-16T12:39:24.004Z"
     },
     "primary:dream-city-eco:3r:66m2": {
       "id": "primary:dream-city-eco:3r:66m2",
@@ -5777,7 +5760,7 @@
       "postedAt": null,
       "code": "1226",
       "firstSeenAt": "2026-11-09T12:47:12.563Z",
-      "lastSeenAt": "2026-11-15T11:57:00.514Z"
+      "lastSeenAt": "2026-11-16T12:39:24.005Z"
     },
     "primary:dream-city-eco:4r:93m2": {
       "id": "primary:dream-city-eco:4r:93m2",
@@ -5801,7 +5784,7 @@
       "postedAt": null,
       "code": "1227",
       "firstSeenAt": "2026-11-09T12:47:12.564Z",
-      "lastSeenAt": "2026-11-15T11:57:00.515Z"
+      "lastSeenAt": "2026-11-16T12:39:24.007Z"
     },
     "primary:асыл-я:1r:40m2": {
       "id": "primary:асыл-я:1r:40m2",
@@ -5825,7 +5808,7 @@
       "postedAt": null,
       "code": "1228",
       "firstSeenAt": "2026-11-09T12:47:12.564Z",
-      "lastSeenAt": "2026-11-15T11:57:00.517Z"
+      "lastSeenAt": "2026-11-16T12:39:24.008Z"
     },
     "primary:qamqor-qala:1r:40m2": {
       "id": "primary:qamqor-qala:1r:40m2",
@@ -5849,7 +5832,7 @@
       "postedAt": null,
       "code": "1229",
       "firstSeenAt": "2026-11-09T12:47:12.565Z",
-      "lastSeenAt": "2026-11-15T11:57:00.518Z"
+      "lastSeenAt": "2026-11-16T12:39:24.009Z"
     },
     "primary:qamqor-qala:2r:43m2": {
       "id": "primary:qamqor-qala:2r:43m2",
@@ -5873,7 +5856,7 @@
       "postedAt": null,
       "code": "1230",
       "firstSeenAt": "2026-11-09T12:47:12.566Z",
-      "lastSeenAt": "2026-11-15T11:57:00.519Z"
+      "lastSeenAt": "2026-11-16T12:39:24.011Z"
     },
     "primary:qamqor-qala:3r:62m2": {
       "id": "primary:qamqor-qala:3r:62m2",
@@ -5897,7 +5880,7 @@
       "postedAt": null,
       "code": "1231",
       "firstSeenAt": "2026-11-09T12:47:12.567Z",
-      "lastSeenAt": "2026-11-15T11:57:00.521Z"
+      "lastSeenAt": "2026-11-16T12:39:24.012Z"
     },
     "primary:qamqor-qala:4r:93m2": {
       "id": "primary:qamqor-qala:4r:93m2",
@@ -5921,7 +5904,7 @@
       "postedAt": null,
       "code": "1232",
       "firstSeenAt": "2026-11-09T12:47:12.568Z",
-      "lastSeenAt": "2026-11-15T11:57:00.522Z"
+      "lastSeenAt": "2026-11-16T12:39:24.013Z"
     },
     "primary:buta-mirai:1r:39m2": {
       "id": "primary:buta-mirai:1r:39m2",
@@ -5945,7 +5928,7 @@
       "postedAt": null,
       "code": "1233",
       "firstSeenAt": "2026-11-09T12:47:12.569Z",
-      "lastSeenAt": "2026-11-15T11:57:00.523Z"
+      "lastSeenAt": "2026-11-16T12:39:24.014Z"
     },
     "primary:buta-mirai:2r:45m2": {
       "id": "primary:buta-mirai:2r:45m2",
@@ -5969,7 +5952,7 @@
       "postedAt": null,
       "code": "1234",
       "firstSeenAt": "2026-11-09T12:47:12.570Z",
-      "lastSeenAt": "2026-11-15T11:57:00.525Z"
+      "lastSeenAt": "2026-11-16T12:39:24.015Z"
     },
     "primary:dastur:1r:30m2": {
       "id": "primary:dastur:1r:30m2",
@@ -5993,7 +5976,7 @@
       "postedAt": null,
       "code": "1235",
       "firstSeenAt": "2026-11-09T12:47:12.574Z",
-      "lastSeenAt": "2026-11-15T11:57:00.528Z"
+      "lastSeenAt": "2026-11-16T12:39:24.022Z"
     },
     "primary:dastur:2r:45m2": {
       "id": "primary:dastur:2r:45m2",
@@ -6017,7 +6000,7 @@
       "postedAt": null,
       "code": "1050",
       "firstSeenAt": "2026-10-30T15:55:24.379Z",
-      "lastSeenAt": "2026-11-15T11:57:00.530Z"
+      "lastSeenAt": "2026-11-16T12:39:24.023Z"
     },
     "primary:dastur:4r:127m2": {
       "id": "primary:dastur:4r:127m2",
@@ -6041,7 +6024,7 @@
       "postedAt": null,
       "code": "1236",
       "firstSeenAt": "2026-11-09T12:47:12.578Z",
-      "lastSeenAt": "2026-11-15T11:57:00.533Z"
+      "lastSeenAt": "2026-11-16T12:39:24.025Z"
     },
     "primary:dream-city-art:1r:30m2": {
       "id": "primary:dream-city-art:1r:30m2",
@@ -6065,7 +6048,7 @@
       "postedAt": null,
       "code": "1237",
       "firstSeenAt": "2026-11-09T12:47:12.578Z",
-      "lastSeenAt": "2026-11-15T11:57:00.534Z"
+      "lastSeenAt": "2026-11-16T12:39:24.026Z"
     },
     "primary:dream-city-art:2r:38m2": {
       "id": "primary:dream-city-art:2r:38m2",
@@ -6089,7 +6072,7 @@
       "postedAt": null,
       "code": "1238",
       "firstSeenAt": "2026-11-09T12:47:12.579Z",
-      "lastSeenAt": "2026-11-15T11:57:00.536Z"
+      "lastSeenAt": "2026-11-16T12:39:24.028Z"
     },
     "primary:dream-city-art:3r:64m2": {
       "id": "primary:dream-city-art:3r:64m2",
@@ -6113,7 +6096,7 @@
       "postedAt": null,
       "code": "1239",
       "firstSeenAt": "2026-11-09T12:47:12.580Z",
-      "lastSeenAt": "2026-11-15T11:57:00.539Z"
+      "lastSeenAt": "2026-11-16T12:39:24.029Z"
     },
     "primary:dream-city-art:4r:80m2": {
       "id": "primary:dream-city-art:4r:80m2",
@@ -6137,7 +6120,7 @@
       "postedAt": null,
       "code": "1240",
       "firstSeenAt": "2026-11-09T12:47:12.581Z",
-      "lastSeenAt": "2026-11-15T11:57:00.541Z"
+      "lastSeenAt": "2026-11-16T12:39:24.030Z"
     },
     "primary:история:1r:59m2": {
       "id": "primary:история:1r:59m2",
@@ -6161,7 +6144,7 @@
       "postedAt": null,
       "code": "1241",
       "firstSeenAt": "2026-11-09T12:47:12.582Z",
-      "lastSeenAt": "2026-11-15T11:57:00.542Z"
+      "lastSeenAt": "2026-11-16T12:39:24.032Z"
     },
     "primary:история:2r:74m2": {
       "id": "primary:история:2r:74m2",
@@ -6185,7 +6168,7 @@
       "postedAt": null,
       "code": "1242",
       "firstSeenAt": "2026-11-09T12:47:12.583Z",
-      "lastSeenAt": "2026-11-15T11:57:00.544Z"
+      "lastSeenAt": "2026-11-16T12:39:24.033Z"
     },
     "primary:история:3r:83m2": {
       "id": "primary:история:3r:83m2",
@@ -6209,7 +6192,7 @@
       "postedAt": null,
       "code": "1243",
       "firstSeenAt": "2026-11-09T12:47:12.584Z",
-      "lastSeenAt": "2026-11-15T11:57:00.545Z"
+      "lastSeenAt": "2026-11-16T12:39:24.034Z"
     },
     "primary:altai-city:1r:36m2": {
       "id": "primary:altai-city:1r:36m2",
@@ -6233,7 +6216,7 @@
       "postedAt": null,
       "code": "1244",
       "firstSeenAt": "2026-11-09T12:47:12.584Z",
-      "lastSeenAt": "2026-11-15T11:57:00.546Z"
+      "lastSeenAt": "2026-11-16T12:39:24.035Z"
     },
     "primary:altai-city:2r:45m2": {
       "id": "primary:altai-city:2r:45m2",
@@ -6257,7 +6240,7 @@
       "postedAt": null,
       "code": "1245",
       "firstSeenAt": "2026-11-09T12:47:12.585Z",
-      "lastSeenAt": "2026-11-15T11:57:00.548Z"
+      "lastSeenAt": "2026-11-16T12:39:24.036Z"
     },
     "primary:altai-city:3r:76m2": {
       "id": "primary:altai-city:3r:76m2",
@@ -6281,7 +6264,7 @@
       "postedAt": null,
       "code": "1246",
       "firstSeenAt": "2026-11-09T12:47:12.586Z",
-      "lastSeenAt": "2026-11-15T11:57:00.549Z"
+      "lastSeenAt": "2026-11-16T12:39:24.037Z"
     },
     "primary:river-city:1r:40m2": {
       "id": "primary:river-city:1r:40m2",
@@ -6305,7 +6288,7 @@
       "postedAt": null,
       "code": "1247",
       "firstSeenAt": "2026-11-09T12:47:12.587Z",
-      "lastSeenAt": "2026-11-15T11:57:00.550Z"
+      "lastSeenAt": "2026-11-16T12:39:24.039Z"
     },
     "primary:arena-city-balance:1r:29m2": {
       "id": "primary:arena-city-balance:1r:29m2",
@@ -6329,7 +6312,7 @@
       "postedAt": null,
       "code": "1248",
       "firstSeenAt": "2026-11-09T12:47:12.588Z",
-      "lastSeenAt": "2026-11-15T11:57:00.552Z"
+      "lastSeenAt": "2026-11-16T12:39:24.045Z"
     },
     "primary:arena-city-balance:2r:41m2": {
       "id": "primary:arena-city-balance:2r:41m2",
@@ -6353,7 +6336,7 @@
       "postedAt": null,
       "code": "1249",
       "firstSeenAt": "2026-11-09T12:47:12.589Z",
-      "lastSeenAt": "2026-11-15T11:57:00.553Z"
+      "lastSeenAt": "2026-11-16T12:39:24.046Z"
     },
     "primary:arena-city-balance:3r:53m2": {
       "id": "primary:arena-city-balance:3r:53m2",
@@ -6377,7 +6360,7 @@
       "postedAt": null,
       "code": "1250",
       "firstSeenAt": "2026-11-09T12:47:12.590Z",
-      "lastSeenAt": "2026-11-15T11:57:00.555Z"
+      "lastSeenAt": "2026-11-16T12:39:24.047Z"
     },
     "primary:arena-city-balance:4r:94m2": {
       "id": "primary:arena-city-balance:4r:94m2",
@@ -6401,7 +6384,7 @@
       "postedAt": null,
       "code": "1251",
       "firstSeenAt": "2026-11-09T12:47:12.591Z",
-      "lastSeenAt": "2026-11-15T11:57:00.556Z"
+      "lastSeenAt": "2026-11-16T12:39:24.048Z"
     },
     "primary:satpaev:2r:56m2": {
       "id": "primary:satpaev:2r:56m2",
@@ -6449,7 +6432,7 @@
       "postedAt": null,
       "code": "1253",
       "firstSeenAt": "2026-11-11T11:52:26.256Z",
-      "lastSeenAt": "2026-11-15T11:57:00.404Z"
+      "lastSeenAt": "2026-11-16T12:39:23.907Z"
     },
     "primary:satay:2r:63m2": {
       "id": "primary:satay:2r:63m2",
@@ -6473,7 +6456,7 @@
       "postedAt": null,
       "code": "1254",
       "firstSeenAt": "2026-11-11T11:52:26.257Z",
-      "lastSeenAt": "2026-11-15T11:57:00.405Z"
+      "lastSeenAt": "2026-11-16T12:39:23.909Z"
     },
     "primary:satay:3r:82m2": {
       "id": "primary:satay:3r:82m2",
@@ -6497,7 +6480,7 @@
       "postedAt": null,
       "code": "1255",
       "firstSeenAt": "2026-11-11T11:52:26.259Z",
-      "lastSeenAt": "2026-11-15T11:57:00.407Z"
+      "lastSeenAt": "2026-11-16T12:39:23.910Z"
     }
   }
 }
