@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T12:56:49.454Z",
+  "generatedAt": "2026-11-19T12:47:47.960Z",
   "topDeals": [
     {
       "id": "primary:mereke:1r:34m2",
@@ -23,7 +23,7 @@
       "postedAt": null,
       "code": "1085",
       "firstSeenAt": "2026-10-30T15:55:24.395Z",
-      "lastSeenAt": "2026-11-18T12:56:49.191Z"
+      "lastSeenAt": "2026-11-19T12:47:47.700Z"
     },
     {
       "id": "primary:mereke:1r:37m2",
@@ -47,7 +47,7 @@
       "postedAt": null,
       "code": "1086",
       "firstSeenAt": "2026-10-30T15:55:24.398Z",
-      "lastSeenAt": "2026-11-18T12:56:49.193Z"
+      "lastSeenAt": "2026-11-19T12:47:47.701Z"
     },
     {
       "id": "primary:river-city:1r:40m2",
@@ -71,7 +71,7 @@
       "postedAt": null,
       "code": "1247",
       "firstSeenAt": "2026-11-09T12:47:12.587Z",
-      "lastSeenAt": "2026-11-18T12:56:49.305Z"
+      "lastSeenAt": "2026-11-19T12:47:47.824Z"
     },
     {
       "id": "primary:satay:1r:45m2",
@@ -95,7 +95,7 @@
       "postedAt": null,
       "code": "1253",
       "firstSeenAt": "2026-11-11T11:52:26.256Z",
-      "lastSeenAt": "2026-11-18T12:56:49.184Z"
+      "lastSeenAt": "2026-11-19T12:47:47.692Z"
     },
     {
       "id": "primary:aurus:2r:49m2",
@@ -119,7 +119,7 @@
       "postedAt": null,
       "code": "1209",
       "firstSeenAt": "2026-11-09T12:47:12.547Z",
-      "lastSeenAt": "2026-11-18T12:56:49.254Z"
+      "lastSeenAt": "2026-11-19T12:47:47.775Z"
     }
   ],
   "newOnes": [],
